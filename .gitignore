@@ -1,11 +1,6 @@
 node_modules/
 dist/
 
-# /mobile is its own separate git repo (github.com/stjamessoto/mobile),
-# not part of this one — excluded here so this repo doesn't try to track
-# or embed it.
-/mobile/
-
 # Secrets — never commit an actual API key.
 .env
 .env.local
