@@ -1,0 +1,12 @@
+{
+  "id": "start-of-year-two",
+  "title": "Second Year",
+  "hogwartsYear": 2,
+  "prose": [
+    "The castle feels different the second time — smaller, somehow, in the way a place always shrinks once you've learned its shortcuts. You know which staircases to avoid at rush hour now, which portraits gossip, which corridor smells permanently of dungbombs.",
+    "There's a new crop of first-years at the Sorting, gawping up at the enchanted ceiling exactly as you did a year ago, and it's strange to realize you're not the newest thing in the castle anymore."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Head to your first lesson of the year.", "next": "second-year-class" }
+  ]
+}

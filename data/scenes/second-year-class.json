@@ -1,0 +1,12 @@
+{
+  "id": "second-year-class",
+  "title": "Charms With Professor Flitwick",
+  "hogwartsYear": 2,
+  "prose": [
+    "Professor Flitwick has to stand on a stack of books to see over his desk, which fools precisely nobody into underestimating him — his Charms lessons move fast, and by the second week you're well past 'Wingardium Leviosa' and onto things that actually spark when you get them wrong.",
+    "Word around the common room is that this year's Defence Against the Dark Arts post has gone to {{dada-professor}} — everyone has an opinion already, and nobody's even had a lesson yet."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Reserve judgment until you've actually sat through a class.", "next": "wider-world-y2" }
+  ]
+}

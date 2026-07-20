@@ -1,0 +1,13 @@
+{
+  "id": "flying-lesson",
+  "title": "Flying Lessons",
+  "hogwartsYear": 1,
+  "prose": [
+    "Madam Hooch strides down the row of brooms laid out on the grass, checking that each is straight. \"Well, what are you all waiting for?\" she barks. \"Stick your right hand over the broom and say 'Up!'\"",
+    "Your broom smacks into your palm on the first try — not everyone's does. Some brooms roll over sulkily in the grass; a few jump up too early and clatter down again before anyone's ready.",
+    "\"Mount your brooms,\" Madam Hooch calls, once every broom is finally in hand. \"Kick off from the ground, hard. Hover. Then lean forward, slightly, to come back down.\" You push off, and for a moment the whole grounds — the lake, the Forbidden Forest, the castle's grey towers — spreads out below you before your feet find grass again."
+  ],
+  "choices": [
+    { "id": "steady-landing", "label": "Bring it down slow and steady, exactly as instructed.", "next": "wider-world-y1" }
+  ]
+}

@@ -1,0 +1,149 @@
+[
+  {
+    "id": "gryffindor",
+    "name": "Gryffindor",
+    "founder": "Godric Gryffindor",
+    "traits": [
+      "courage",
+      "bravery",
+      "nerve",
+      "chivalry",
+      "daring"
+    ],
+    "values": [
+      "courage",
+      "chivalry"
+    ],
+    "commonRoomLocation": "A tower entered through the portrait of the Fat Lady, who requires a password.",
+    "ghost": "Nearly Headless Nick (Sir Nicholas de Mimsy-Porpington)",
+    "animal": "lion",
+    "element": null,
+    "colors": [
+      "scarlet",
+      "gold"
+    ],
+    "headsOfHouse": [
+      {
+        "name": "Minerva McGonagall",
+        "eraStart": null,
+        "eraEnd": null,
+        "canonTier": "book",
+        "source": "Philosopher's Stone through Deathly Hallows (confirmed throughout)"
+      }
+    ],
+    "canonTier": "book",
+    "source": "Philosopher's Stone, ch. 7 (the Sorting)"
+  },
+  {
+    "id": "hufflepuff",
+    "name": "Hufflepuff",
+    "founder": "Helga Hufflepuff",
+    "traits": [
+      "hard work",
+      "patience",
+      "loyalty",
+      "fair play",
+      "tolerance"
+    ],
+    "values": [
+      "loyalty",
+      "dedication"
+    ],
+    "commonRoomLocation": "Near the Hogwarts kitchens, entered through a stack of barrels tapped in a specific rhythm.",
+    "ghost": "The Fat Friar",
+    "animal": "badger",
+    "element": null,
+    "colors": [
+      "yellow",
+      "black"
+    ],
+    "headsOfHouse": [
+      {
+        "name": "Pomona Sprout",
+        "eraStart": null,
+        "eraEnd": null,
+        "canonTier": "book",
+        "source": "Philosopher's Stone through Deathly Hallows (confirmed throughout)"
+      }
+    ],
+    "canonTier": "book",
+    "source": "Philosopher's Stone, ch. 7; common room location per Half-Blood Prince, ch. 22"
+  },
+  {
+    "id": "ravenclaw",
+    "name": "Ravenclaw",
+    "founder": "Rowena Ravenclaw",
+    "traits": [
+      "intelligence",
+      "wit",
+      "learning",
+      "wisdom",
+      "creativity"
+    ],
+    "values": [
+      "wisdom",
+      "wit"
+    ],
+    "commonRoomLocation": "A tower entered by answering a riddle posed by a bronze eagle door-knocker.",
+    "ghost": "The Grey Lady (Helena Ravenclaw)",
+    "animal": "eagle",
+    "element": null,
+    "colors": [
+      "blue",
+      "bronze"
+    ],
+    "headsOfHouse": [
+      {
+        "name": "Filius Flitwick",
+        "eraStart": null,
+        "eraEnd": null,
+        "canonTier": "book",
+        "source": "Philosopher's Stone through Deathly Hallows (confirmed throughout)"
+      }
+    ],
+    "canonTier": "book",
+    "source": "Philosopher's Stone, ch. 7; common room mechanism and Grey Lady identity per Deathly Hallows"
+  },
+  {
+    "id": "slytherin",
+    "name": "Slytherin",
+    "founder": "Salazar Slytherin",
+    "traits": [
+      "ambition",
+      "cunning",
+      "leadership",
+      "resourcefulness",
+      "determination"
+    ],
+    "values": [
+      "ambition",
+      "self-preservation"
+    ],
+    "commonRoomLocation": "A dungeon behind a bare stretch of wall, entered with a password; windows look out into the Hogwarts lake.",
+    "ghost": "The Bloody Baron",
+    "animal": "serpent",
+    "element": null,
+    "colors": [
+      "green",
+      "silver"
+    ],
+    "headsOfHouse": [
+      {
+        "name": "Severus Snape",
+        "eraStart": null,
+        "eraEnd": 1996,
+        "canonTier": "book",
+        "source": "Confirmed through Order of the Phoenix; steps down on becoming DADA professor in Half-Blood Prince"
+      },
+      {
+        "name": "Horace Slughorn",
+        "eraStart": 1996,
+        "eraEnd": null,
+        "canonTier": "book",
+        "source": "Half-Blood Prince, ch. 4 (appointed Head of Slytherin on his return to teach)"
+      }
+    ],
+    "canonTier": "book",
+    "source": "Philosopher's Stone, ch. 7; common room location per Half-Blood Prince, ch. 22"
+  }
+]

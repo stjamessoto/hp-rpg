@@ -1,0 +1,11 @@
+{
+  "id": "wider-world-y2",
+  "title": "Word From Beyond the Castle Walls",
+  "hogwartsYear": 2,
+  "prose": [
+    "{{wider-world}}"
+  ],
+  "choices": [
+    { "id": "continue", "label": "Get back to the ordinary business of being twelve at a magic school.", "next": "end-of-year-two" }
+  ]
+}

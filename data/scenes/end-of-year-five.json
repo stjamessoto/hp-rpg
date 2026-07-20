@@ -1,0 +1,11 @@
+{
+  "id": "end-of-year-five",
+  "title": "The End of Your Fifth Year",
+  "hogwartsYear": 5,
+  "prose": [
+    "O.W.L. results won't come until the summer's nearly over — by owl, delivered to whatever kitchen table you're sitting at when it finally arrives — but for now there's just the train, the last look back at the castle shrinking behind the hills, and two years left before N.E.W.T.s make even this year look easy."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Head into sixth year.", "next": "start-of-year-six" }
+  ]
+}

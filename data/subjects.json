@@ -1,0 +1,319 @@
+[
+  {
+    "id": "transfiguration",
+    "name": "Transfiguration",
+    "category": "core",
+    "yearIntroduced": 1,
+    "owlAvailable": true,
+    "newtAvailable": true,
+    "professorsByEra": [
+      {
+        "name": "Minerva McGonagall",
+        "eraStart": null,
+        "eraEnd": null,
+        "canonTier": "book",
+        "source": "All seven novels"
+      }
+    ],
+    "canonTier": "book",
+    "source": "Philosopher's Stone"
+  },
+  {
+    "id": "charms",
+    "name": "Charms",
+    "category": "core",
+    "yearIntroduced": 1,
+    "owlAvailable": true,
+    "newtAvailable": true,
+    "professorsByEra": [
+      {
+        "name": "Filius Flitwick",
+        "eraStart": null,
+        "eraEnd": null,
+        "canonTier": "book",
+        "source": "All seven novels"
+      }
+    ],
+    "canonTier": "book",
+    "source": "Philosopher's Stone"
+  },
+  {
+    "id": "potions",
+    "name": "Potions",
+    "category": "core",
+    "yearIntroduced": 1,
+    "owlAvailable": true,
+    "newtAvailable": true,
+    "professorsByEra": [
+      {
+        "name": "Severus Snape",
+        "eraStart": null,
+        "eraEnd": 1995,
+        "canonTier": "book",
+        "source": "Philosopher's Stone through Order of the Phoenix"
+      },
+      {
+        "name": "Horace Slughorn",
+        "eraStart": 1996,
+        "eraEnd": 1997,
+        "canonTier": "book",
+        "source": "Half-Blood Prince"
+      }
+    ],
+    "canonTier": "book",
+    "source": "Philosopher's Stone"
+  },
+  {
+    "id": "defence-against-the-dark-arts",
+    "name": "Defence Against the Dark Arts",
+    "category": "core",
+    "yearIntroduced": 1,
+    "owlAvailable": true,
+    "newtAvailable": true,
+    "professorsByEra": [
+      {
+        "name": "Quirinus Quirrell",
+        "eraStart": 1991,
+        "eraEnd": 1991,
+        "canonTier": "book",
+        "source": "Philosopher's Stone"
+      },
+      {
+        "name": "Gilderoy Lockhart",
+        "eraStart": 1992,
+        "eraEnd": 1992,
+        "canonTier": "book",
+        "source": "Chamber of Secrets"
+      },
+      {
+        "name": "Remus Lupin",
+        "eraStart": 1993,
+        "eraEnd": 1993,
+        "canonTier": "book",
+        "source": "Prisoner of Azkaban"
+      },
+      {
+        "name": "Bartemius Crouch Jr. (disguised as Alastor Moody)",
+        "eraStart": 1994,
+        "eraEnd": 1994,
+        "canonTier": "book",
+        "source": "Goblet of Fire"
+      },
+      {
+        "name": "Dolores Umbridge",
+        "eraStart": 1995,
+        "eraEnd": 1995,
+        "canonTier": "book",
+        "source": "Order of the Phoenix"
+      },
+      {
+        "name": "Severus Snape",
+        "eraStart": 1996,
+        "eraEnd": 1996,
+        "canonTier": "book",
+        "source": "Half-Blood Prince"
+      },
+      {
+        "name": "Amycus Carrow",
+        "eraStart": 1997,
+        "eraEnd": 1997,
+        "canonTier": "book",
+        "source": "Deathly Hallows (reported secondhand; Harry, Ron, and Hermione do not attend)"
+      }
+    ],
+    "canonTier": "book",
+    "source": "Philosopher's Stone onward"
+  },
+  {
+    "id": "herbology",
+    "name": "Herbology",
+    "category": "core",
+    "yearIntroduced": 1,
+    "owlAvailable": true,
+    "newtAvailable": true,
+    "professorsByEra": [
+      {
+        "name": "Pomona Sprout",
+        "eraStart": null,
+        "eraEnd": null,
+        "canonTier": "book",
+        "source": "All seven novels"
+      }
+    ],
+    "canonTier": "book",
+    "source": "Philosopher's Stone"
+  },
+  {
+    "id": "history-of-magic",
+    "name": "History of Magic",
+    "category": "core",
+    "yearIntroduced": 1,
+    "owlAvailable": true,
+    "newtAvailable": true,
+    "professorsByEra": [
+      {
+        "name": "Cuthbert Binns",
+        "eraStart": null,
+        "eraEnd": null,
+        "canonTier": "book",
+        "source": "All seven novels (a ghost, the only staff member who is one)"
+      }
+    ],
+    "canonTier": "book",
+    "source": "Philosopher's Stone"
+  },
+  {
+    "id": "astronomy",
+    "name": "Astronomy",
+    "category": "core",
+    "yearIntroduced": 1,
+    "owlAvailable": true,
+    "newtAvailable": true,
+    "professorsByEra": [
+      {
+        "name": "Aurora Sinistra",
+        "eraStart": null,
+        "eraEnd": null,
+        "canonTier": "book",
+        "source": "Referenced from Philosopher's Stone onward"
+      }
+    ],
+    "canonTier": "book",
+    "source": "Philosopher's Stone"
+  },
+  {
+    "id": "flying-lessons",
+    "name": "Flying Lessons",
+    "category": "core",
+    "yearIntroduced": 1,
+    "owlAvailable": false,
+    "newtAvailable": false,
+    "professorsByEra": [
+      {
+        "name": "Rolanda Hooch",
+        "eraStart": null,
+        "eraEnd": null,
+        "canonTier": "book",
+        "source": "Philosopher's Stone, ch. 9"
+      }
+    ],
+    "canonTier": "book",
+    "source": "Philosopher's Stone; first-year only"
+  },
+  {
+    "id": "divination",
+    "name": "Divination",
+    "category": "elective",
+    "yearIntroduced": 3,
+    "owlAvailable": true,
+    "newtAvailable": true,
+    "professorsByEra": [
+      {
+        "name": "Sybill Trelawney",
+        "eraStart": null,
+        "eraEnd": null,
+        "canonTier": "book",
+        "source": "Prisoner of Azkaban onward"
+      },
+      {
+        "name": "Firenze",
+        "eraStart": 1995,
+        "eraEnd": 1996,
+        "canonTier": "book",
+        "source": "Order of the Phoenix (teaches alongside Trelawney)"
+      }
+    ],
+    "canonTier": "book",
+    "source": "Prisoner of Azkaban; elective from third year"
+  },
+  {
+    "id": "care-of-magical-creatures",
+    "name": "Care of Magical Creatures",
+    "category": "elective",
+    "yearIntroduced": 3,
+    "owlAvailable": true,
+    "newtAvailable": true,
+    "professorsByEra": [
+      {
+        "name": "Silvanus Kettleburn",
+        "eraStart": null,
+        "eraEnd": 1992,
+        "canonTier": "book",
+        "source": "Referenced in Chamber of Secrets/Prisoner of Azkaban as Hagrid's predecessor"
+      },
+      {
+        "name": "Rubeus Hagrid",
+        "eraStart": 1993,
+        "eraEnd": null,
+        "canonTier": "book",
+        "source": "Prisoner of Azkaban onward"
+      }
+    ],
+    "canonTier": "book",
+    "source": "Prisoner of Azkaban; elective from third year"
+  },
+  {
+    "id": "arithmancy",
+    "name": "Arithmancy",
+    "category": "elective",
+    "yearIntroduced": 3,
+    "owlAvailable": true,
+    "newtAvailable": true,
+    "professorsByEra": [
+      {
+        "name": "Septima Vector",
+        "eraStart": null,
+        "eraEnd": null,
+        "canonTier": "book",
+        "source": "Prisoner of Azkaban onward"
+      }
+    ],
+    "canonTier": "book",
+    "source": "Prisoner of Azkaban; elective from third year"
+  },
+  {
+    "id": "muggle-studies",
+    "name": "Muggle Studies",
+    "category": "elective",
+    "yearIntroduced": 3,
+    "owlAvailable": true,
+    "newtAvailable": true,
+    "professorsByEra": [
+      {
+        "name": "Charity Burbage",
+        "eraStart": null,
+        "eraEnd": 1997,
+        "canonTier": "book",
+        "source": "Deathly Hallows, ch. 1 (murdered by Voldemort)"
+      },
+      {
+        "name": "Alecto Carrow",
+        "eraStart": 1997,
+        "eraEnd": 1997,
+        "canonTier": "book",
+        "source": "Deathly Hallows (reported secondhand)"
+      }
+    ],
+    "canonTier": "book",
+    "source": "Prisoner of Azkaban; elective from third year"
+  },
+  {
+    "id": "ancient-runes",
+    "name": "Ancient Runes",
+    "category": "elective",
+    "yearIntroduced": 3,
+    "owlAvailable": true,
+    "newtAvailable": true,
+    "professorsByEra": [
+      {
+        "name": "Bathsheda Babbling",
+        "eraStart": null,
+        "eraEnd": null,
+        "canonTier": "book",
+        "source": "Prisoner of Azkaban onward"
+      }
+    ],
+    "canonTier": "book",
+    "source": "Prisoner of Azkaban; elective from third year"
+  }
+]

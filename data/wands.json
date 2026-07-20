@@ -1,0 +1,206 @@
+{
+  "canonTier": "book",
+  "source": "Philosopher's Stone, ch. 5 (Ollivander's) and Deathly Hallows, ch. 24 (Ollivander at Shell Cottage)",
+  "lengthRangeInches": {
+    "min": 9,
+    "max": 15,
+    "typical": 10
+  },
+  "flexibilities": [
+    "unyielding",
+    "quite rigid",
+    "reasonably springy",
+    "surprisingly swishy",
+    "supple",
+    "pliant"
+  ],
+  "woods": [
+    {
+      "id": "holly",
+      "name": "Holly",
+      "traits": [
+        "protective",
+        "chosen for wizards who are dangerous or destined for danger"
+      ],
+      "ollivanderNote": "An uncommon wood, traditionally associated with protective, sometimes-dangerous destinies.",
+      "canonTier": "supplementary",
+      "source": "Wizarding World, 'Wand Woods' (Pottermore)"
+    },
+    {
+      "id": "yew",
+      "name": "Yew",
+      "traits": [
+        "associated with power, and sometimes wrongly with a proclivity for the Dark Arts"
+      ],
+      "ollivanderNote": "Wands of yew are capable of great power, chosen by owners unafraid of their own capacity for it.",
+      "canonTier": "supplementary",
+      "source": "Wizarding World, 'Wand Woods' (Pottermore)"
+    },
+    {
+      "id": "vine",
+      "name": "Vine",
+      "traits": [
+        "seeks wizards with a purpose beyond the everyday",
+        "drawn to owners of unusual talent"
+      ],
+      "ollivanderNote": "A wand wood that looks for the true purpose of its owner, sometimes before that purpose is discovered.",
+      "canonTier": "supplementary",
+      "source": "Wizarding World, 'Wand Woods' (Pottermore)"
+    },
+    {
+      "id": "hawthorn",
+      "name": "Hawthorn",
+      "traits": [
+        "healing affinity",
+        "temperamental in an unskilled hand"
+      ],
+      "ollivanderNote": "A wand for a complex, conflicted character, capable of great good or ill depending on the hand.",
+      "canonTier": "supplementary",
+      "source": "Wizarding World, 'Wand Woods' (Pottermore)"
+    },
+    {
+      "id": "willow",
+      "name": "Willow",
+      "traits": [
+        "healing magic",
+        "outward insecurity paired with unusual talent"
+      ],
+      "ollivanderNote": "Wandmakers report willow wands are prized for their fine work in healing magic.",
+      "canonTier": "supplementary",
+      "source": "Wizarding World, 'Wand Woods' (Pottermore)"
+    },
+    {
+      "id": "oak",
+      "name": "Oak",
+      "traits": [
+        "strength",
+        "loyalty",
+        "intuition"
+      ],
+      "ollivanderNote": "The oak wand chooses owners of strength, courage and fidelity.",
+      "canonTier": "supplementary",
+      "source": "Wizarding World, 'Wand Woods' (Pottermore)"
+    },
+    {
+      "id": "elder",
+      "name": "Elder",
+      "traits": [
+        "exceptionally rare",
+        "demands an exceptional owner"
+      ],
+      "ollivanderNote": "The rarest and, by reputation, most dangerous of all wand woods; the Elder Wand itself is elder.",
+      "canonTier": "book",
+      "source": "Deathly Hallows, ch. 21 & 36 (The Tale of the Three Brothers; the Elder Wand's history)"
+    }
+  ],
+  "cores": [
+    {
+      "id": "phoenix-feather",
+      "name": "Phoenix feather",
+      "description": "The rarest core Ollivander uses; wands with this core are capable of the greatest range of magic.",
+      "notableTraits": [
+        "produces wands of great power",
+        "capable of loyalty to the point of not working properly against its own kin"
+      ],
+      "canonTier": "book",
+      "source": "Philosopher's Stone, ch. 5; Goblet of Fire, ch. 34 (Priori Incantatem)"
+    },
+    {
+      "id": "dragon-heartstring",
+      "name": "Dragon heartstring",
+      "description": "Produces wands with the most power and the most capable of flamboyant spells; can be prone to accidents in an inexperienced hand.",
+      "notableTraits": [
+        "powerful",
+        "quick to learn new spells"
+      ],
+      "canonTier": "book",
+      "source": "Philosopher's Stone, ch. 5"
+    },
+    {
+      "id": "unicorn-hair",
+      "name": "Unicorn hair",
+      "description": "Generally produces the most consistent, faithful magic, least prone to going wrong; wands are the most difficult to turn to the Dark Arts.",
+      "notableTraits": [
+        "consistent",
+        "loyal to a single owner",
+        "resistant to the Dark Arts"
+      ],
+      "canonTier": "book",
+      "source": "Philosopher's Stone, ch. 5"
+    },
+    {
+      "id": "thestral-tail-hair",
+      "name": "Thestral tail hair",
+      "description": "An unusual, powerful core most wandmakers avoid using because it is difficult to master; famously the core of the Elder Wand.",
+      "notableTraits": [
+        "exceptionally powerful",
+        "hard to master",
+        "rarely used by wandmakers"
+      ],
+      "canonTier": "book",
+      "source": "Deathly Hallows, ch. 21"
+    }
+  ],
+  "famousWands": [
+    {
+      "owner": "Harry Potter",
+      "wood": "holly",
+      "core": "phoenix-feather",
+      "lengthInches": 11,
+      "flexibility": "supple",
+      "notes": "Shares a core (from the same phoenix, Fawkes) with Voldemort's wand.",
+      "canonTier": "book",
+      "source": "Philosopher's Stone, ch. 5"
+    },
+    {
+      "owner": "Lord Voldemort",
+      "wood": "yew",
+      "core": "phoenix-feather",
+      "lengthInches": 13.5,
+      "flexibility": "unyielding",
+      "notes": "The 'brother wand' to Harry's; shares a phoenix-feather core from Fawkes.",
+      "canonTier": "book",
+      "source": "Goblet of Fire, ch. 34 (Priori Incantatem); Deathly Hallows, ch. 1"
+    },
+    {
+      "owner": "Draco Malfoy",
+      "wood": "hawthorn",
+      "core": "unicorn-hair",
+      "lengthInches": 10,
+      "flexibility": "reasonably springy",
+      "notes": "Examined and confirmed by Ollivander at Shell Cottage after Harry disarms Draco at Malfoy Manor.",
+      "canonTier": "book",
+      "source": "Deathly Hallows, ch. 24"
+    },
+    {
+      "owner": "Albus Dumbledore / the Elder Wand",
+      "wood": "elder",
+      "core": "thestral-tail-hair",
+      "lengthInches": null,
+      "flexibility": null,
+      "notes": "One of the three Deathly Hallows; passed by defeat/allegiance through a chain of owners across history.",
+      "canonTier": "book",
+      "source": "Deathly Hallows, ch. 21 & 24"
+    },
+    {
+      "owner": "Hermione Granger",
+      "wood": "vine",
+      "core": "dragon-heartstring",
+      "lengthInches": 10.75,
+      "flexibility": null,
+      "notes": "Commonly cited combination; not stated with these exact specifics in the novels' own text.",
+      "canonTier": "wiki-only",
+      "source": "Harry Potter Wiki (unverified against book text)"
+    },
+    {
+      "owner": "Ron Weasley",
+      "wood": "willow",
+      "core": "unicorn-hair",
+      "lengthInches": null,
+      "flexibility": null,
+      "notes": "Second wand, bought new before fourth year after his hand-me-down wand broke in Chamber of Secrets.",
+      "canonTier": "wiki-only",
+      "source": "Harry Potter Wiki (unverified against book text)"
+    }
+  ]
+}

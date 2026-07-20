@@ -1,0 +1,152 @@
+[
+  {
+    "id": "hippogriff",
+    "name": "Hippogriff",
+    "classification": "XXX",
+    "description": "A creature with the front half of a giant eagle and the hind half of a horse; proud, and must be approached with a bow.",
+    "habitat": "Northern Europe",
+    "danger": "Dangerous if disrespected, otherwise safe to approach.",
+    "canonTier": "book",
+    "source": "Prisoner of Azkaban, ch. 6"
+  },
+  {
+    "id": "dementor",
+    "name": "Dementor",
+    "classification": null,
+    "description": "A soul-less, cloaked being that feeds on human happiness and can perform the Dementor's Kiss, removing the soul.",
+    "habitat": "Azkaban; drawn to areas of human misery",
+    "danger": "Extremely dangerous.",
+    "canonTier": "book",
+    "source": "Prisoner of Azkaban"
+  },
+  {
+    "id": "basilisk",
+    "name": "Basilisk",
+    "classification": "XXXXX",
+    "description": "The 'King of Serpents,' a giant snake whose direct gaze kills instantly; its indirect gaze causes petrification.",
+    "habitat": "Bred in captivity; the Hogwarts specimen lived in the Chamber of Secrets",
+    "danger": "Lethal.",
+    "canonTier": "book",
+    "source": "Chamber of Secrets"
+  },
+  {
+    "id": "hungarian-horntail",
+    "name": "Hungarian Horntail",
+    "classification": "XXXXX",
+    "description": "A black dragon breed with bronze horns and spikes along its tail, considered the most dangerous dragon breed.",
+    "habitat": "Hungary",
+    "danger": "Extremely dangerous.",
+    "canonTier": "book",
+    "source": "Goblet of Fire, ch. 20"
+  },
+  {
+    "id": "house-elf",
+    "name": "House-elf",
+    "classification": "being",
+    "description": "A small, magical servant species bound to a wizarding household or place, freed only when given clothes by their master.",
+    "habitat": "Wizarding households and institutions such as Hogwarts",
+    "danger": "Not dangerous.",
+    "canonTier": "book",
+    "source": "Chamber of Secrets (Dobby); Goblet of Fire (Hogwarts kitchens)"
+  },
+  {
+    "id": "centaur",
+    "name": "Centaur",
+    "classification": "being (self-classified; the Ministry classifies them as beasts, which centaurs reject)",
+    "description": "A being with the upper body of a human and the lower body of a horse, skilled in divination by the stars and fiercely private.",
+    "habitat": "The Forbidden Forest",
+    "danger": "Not aggressive unless provoked or their territory is disrespected.",
+    "canonTier": "book",
+    "source": "Philosopher's Stone, ch. 15"
+  },
+  {
+    "id": "werewolf",
+    "name": "Werewolf",
+    "classification": "XXXXX (while transformed)",
+    "description": "A human who transforms into a wolf-like beast at the full moon and is dangerous to others in that state; not dangerous the rest of the month.",
+    "habitat": "Anywhere; heavily stigmatized in wizarding society",
+    "danger": "Extremely dangerous only during transformation.",
+    "canonTier": "book",
+    "source": "Prisoner of Azkaban"
+  },
+  {
+    "id": "boggart",
+    "name": "Boggart",
+    "classification": "XXX",
+    "description": "A shape-shifting creature that takes the form of its viewer's greatest fear; repelled by the Riddikulus charm.",
+    "habitat": "Dark, enclosed spaces such as wardrobes",
+    "danger": "Frightening but not directly lethal.",
+    "canonTier": "book",
+    "source": "Prisoner of Azkaban, ch. 7"
+  },
+  {
+    "id": "phoenix",
+    "name": "Phoenix",
+    "classification": "XXXXX",
+    "description": "A magical bird that bursts into flame and is reborn from its own ashes; its tears have healing powers.",
+    "habitat": "Solitary; Fawkes lives at Hogwarts with Dumbledore",
+    "danger": "Not dangerous; fiercely loyal.",
+    "canonTier": "book",
+    "source": "Chamber of Secrets, ch. 12"
+  },
+  {
+    "id": "thestral",
+    "name": "Thestral",
+    "classification": "XXXX",
+    "description": "A skeletal, winged horse-like creature visible only to those who have witnessed death.",
+    "habitat": "The Forbidden Forest",
+    "danger": "Docile despite their sinister reputation.",
+    "canonTier": "book",
+    "source": "Order of the Phoenix, ch. 10"
+  },
+  {
+    "id": "giant",
+    "name": "Giant",
+    "classification": "being",
+    "description": "A very large humanoid species, nearly hunted to extinction and living in remote mountain communities.",
+    "habitat": "Remote mountain ranges",
+    "danger": "Varies by individual; often stigmatized as dangerous.",
+    "canonTier": "book",
+    "source": "Goblet of Fire, ch. 24 (Hagrid's parentage)"
+  },
+  {
+    "id": "troll",
+    "name": "Troll",
+    "classification": "XXXX",
+    "description": "A large, dim-witted, immensely strong creature that carries a club.",
+    "habitat": "Mountains and caves",
+    "danger": "Very dangerous through brute strength.",
+    "canonTier": "book",
+    "source": "Philosopher's Stone, ch. 10"
+  },
+  {
+    "id": "merpeople",
+    "name": "Merpeople",
+    "classification": "being",
+    "description": "An aquatic, intelligent species with their own settlements and language (Mermish); the Hogwarts lake has a merpeople village.",
+    "habitat": "Large lakes, seas, and oceans",
+    "danger": "Not dangerous, though territorial.",
+    "canonTier": "book",
+    "source": "Goblet of Fire, ch. 26"
+  },
+  {
+    "id": "acromantula",
+    "name": "Acromantula",
+    "classification": "XXXXX",
+    "description": "A giant, sapient spider; a colony descended from Hagrid's Aragog lives in the Forbidden Forest.",
+    "habitat": "The Forbidden Forest",
+    "danger": "Extremely dangerous.",
+    "canonTier": "book",
+    "source": "Chamber of Secrets, ch. 15"
+  },
+  {
+    "id": "niffler",
+    "name": "Niffler",
+    "classification": "XX",
+    "description": "A small, furry creature with a passion for anything shiny, used to dig up treasure.",
+    "habitat": "Burrows underground",
+    "danger": "Harmless, though destructive when hunting for treasure.",
+    "canonTier": "book",
+    "source": "Goblet of Fire, ch. 8 (Care of Magical Creatures)"
+  }
+]

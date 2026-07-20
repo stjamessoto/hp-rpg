@@ -1,0 +1,12 @@
+{
+  "id": "resistance-y7",
+  "title": "Dumbledore's Army, Reborn",
+  "hogwartsYear": 7,
+  "prose": [
+    "It starts the way it always does — a coin passed hand to hand, a message about where and when — except this time it isn't extra Defence practice, it's Neville Longbottom, Ginny Weasley, and Luna Lovegood keeping Dumbledore's Army alive as something closer to outright resistance: hiding students the Carrows want to punish, scrawling messages on corridor walls, holding the line in small, stubborn ways.",
+    "You're not the one leading it. You're one of a dozen or more who show up anyway, because the alternative — doing nothing while the Carrows run the school — has stopped feeling like an option."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Keep showing up, whatever it costs.", "next": "end-of-year-seven-battle" }
+  ]
+}

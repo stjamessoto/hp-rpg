@@ -1,0 +1,12 @@
+{
+  "id": "end-of-year-two",
+  "title": "The End of Your Second Year",
+  "hogwartsYear": 2,
+  "prose": [
+    "Second year ends more quietly than it began — no fanfare, just the same exams, the same packing, the same long train ride south with your trunk taking up too much space under the seat.",
+    "Next year brings electives — actual choices about what you learn, for the first time since you arrived. You spend most of the ride home arguing with your dormmates about which ones are worth taking."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Head home already turning the choices over.", "next": "start-of-year-three" }
+  ]
+}

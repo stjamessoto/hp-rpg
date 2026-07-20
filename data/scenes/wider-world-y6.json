@@ -1,0 +1,11 @@
+{
+  "id": "wider-world-y6",
+  "title": "Word From Beyond the Castle Walls",
+  "hogwartsYear": 6,
+  "prose": [
+    "{{wider-world}}"
+  ],
+  "choices": [
+    { "id": "continue", "label": "Finish out the year as best you can.", "next": "end-of-year-six" }
+  ]
+}

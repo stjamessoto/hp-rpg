@@ -1,0 +1,12 @@
+{
+  "id": "owls-exams",
+  "title": "O.W.L.s",
+  "hogwartsYear": 5,
+  "prose": [
+    "The Great Hall is rearranged for exams — single desks in long silent rows, the four house tables banished somewhere for the duration — and for two weeks straight your life is written parchment, practical demonstrations, and the particular ache of a hand that's been writing for three hours.",
+    "By the last exam, you can barely remember what the castle sounds like when it isn't full of quills scratching. It's a relief just to hand in the final paper and walk out into ordinary noise again."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Try not to think about the results until they actually arrive.", "next": "end-of-year-five" }
+  ]
+}

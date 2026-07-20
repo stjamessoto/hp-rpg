@@ -1,0 +1,46 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f1811"/>
+      <stop offset="100%" stop-color="#100c08"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8c976"/>
+      <stop offset="100%" stop-color="#a9782f"/>
+    </linearGradient>
+    <radialGradient id="spark" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff6d8"/>
+      <stop offset="55%" stop-color="#e8c976"/>
+      <stop offset="100%" stop-color="#e8c976" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- badge -->
+  <rect x="16" y="16" width="480" height="480" rx="108" fill="url(#bg)"/>
+  <rect x="16" y="16" width="480" height="480" rx="108" fill="none" stroke="url(#gold)" stroke-width="10"/>
+  <rect x="34" y="34" width="444" height="444" rx="94" fill="none" stroke="#a9782f" stroke-width="2" opacity="0.5"/>
+
+  <!-- wand, diagonal from lower-left to upper-right -->
+  <g transform="rotate(-45 256 256)">
+    <rect x="140" y="246" width="230" height="20" rx="10" fill="url(#gold)"/>
+    <rect x="140" y="246" width="230" height="20" rx="10" fill="none" stroke="#6f4e1e" stroke-width="2" opacity="0.4"/>
+    <!-- handle wrap -->
+    <rect x="140" y="242" width="34" height="28" rx="8" fill="#3a2f22"/>
+    <rect x="150" y="242" width="4" height="28" fill="#1a140d" opacity="0.6"/>
+    <rect x="160" y="242" width="4" height="28" fill="#1a140d" opacity="0.6"/>
+  </g>
+
+  <!-- spark burst at wand tip -->
+  <circle cx="378" cy="134" r="70" fill="url(#spark)"/>
+  <g stroke="#fff6d8" stroke-width="7" stroke-linecap="round">
+    <line x1="378" y1="90" x2="378" y2="112"/>
+    <line x1="378" y1="156" x2="378" y2="178"/>
+    <line x1="334" y1="134" x2="356" y2="134"/>
+    <line x1="400" y1="134" x2="422" y2="134"/>
+    <line x1="349" y1="105" x2="364" y2="120"/>
+    <line x1="392" y1="148" x2="407" y2="163"/>
+    <line x1="407" y1="105" x2="392" y2="120"/>
+    <line x1="364" y1="148" x2="349" y2="163"/>
+  </g>
+  <circle cx="378" cy="134" r="12" fill="#fffaf0"/>
+</svg>

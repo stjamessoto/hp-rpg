@@ -1,0 +1,12 @@
+{
+  "id": "wider-world-y1",
+  "title": "Word From Beyond the Castle Walls",
+  "hogwartsYear": 1,
+  "prose": [
+    "News travels strangely at Hogwarts — no papers arrive except the Daily Prophet at breakfast, dropped by owl into the porridge, but somehow everyone knows everything by lunch anyway.",
+    "{{wider-world}}"
+  ],
+  "choices": [
+    { "id": "continue", "label": "Turn back to your own small corner of it all.", "next": "end-of-year-one" }
+  ]
+}

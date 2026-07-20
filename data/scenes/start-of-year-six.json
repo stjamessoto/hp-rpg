@@ -1,0 +1,12 @@
+{
+  "id": "start-of-year-six",
+  "title": "Sixth Year",
+  "hogwartsYear": 6,
+  "prose": [
+    "N.E.W.T. classes are smaller — half the year didn't get the O.W.L. grade to continue, and the ones who did find the pace has changed completely. Professors stop reminding you to take notes; they assume it now.",
+    "There's a heaviness to the castle this year that wasn't there before, hard to name exactly — nothing anyone says outright, just a sense that the adults around you are watching the news a little too closely."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Push it aside and get to your first N.E.W.T. lesson.", "next": "newt-electives" }
+  ]
+}

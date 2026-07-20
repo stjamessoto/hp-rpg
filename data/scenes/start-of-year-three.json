@@ -1,0 +1,11 @@
+{
+  "id": "start-of-year-three",
+  "title": "Third Year",
+  "hogwartsYear": 3,
+  "prose": [
+    "Third year arrives with two new privileges at once: a timetable with actual gaps in it for the electives you picked over the summer, and — pinned to the noticeboard in a rather official hand — the Hogsmeade permission slip every third-year has been waiting for."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Go and see what your elective timetable actually looks like.", "next": "elective-choice" }
+  ]
+}

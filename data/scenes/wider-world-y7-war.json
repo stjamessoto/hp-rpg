@@ -1,0 +1,22 @@
+{
+  "id": "wider-world-y7-war",
+  "title": "Word From Beyond the Castle Walls",
+  "hogwartsYear": 7,
+  "prose": [
+    "The Daily Prophet that reaches the Great Hall these days says less than it used to, and what it does say can't always be trusted. What actually filters through comes quieter, and later, and matters more.",
+    "{{wider-world}}"
+  ],
+  "choices": [
+    {
+      "id": "continue",
+      "label": "Keep that news to yourself and pass it on carefully.",
+      "next": "resistance-y7",
+      "branch": {
+        "on": "bloodStatus",
+        "bloodStatus": "muggle-born",
+        "ifTrue": "muggle-born-in-hiding",
+        "ifFalse": "resistance-y7"
+      }
+    }
+  ]
+}

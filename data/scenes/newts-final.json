@@ -1,0 +1,12 @@
+{
+  "id": "newts-final",
+  "title": "N.E.W.T.s",
+  "hogwartsYear": 7,
+  "prose": [
+    "N.E.W.T.s make O.W.L.s look like a warm-up: practical demonstrations in front of external examiners, essays that expect you to argue rather than recite, a Charms exam that has you holding a complex piece of magic steady for a full five minutes under someone else's watchful eye.",
+    "You walk out of the last exam into a warm June afternoon that feels almost unfairly ordinary, given how much of the last seven years has led to this one string of mornings in the Great Hall."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Head down to the lake to wait it out with everyone else.", "next": "graduation" }
+  ]
+}

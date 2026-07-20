@@ -1,0 +1,12 @@
+{
+  "id": "end-of-year-one",
+  "title": "The End of Your First Year",
+  "hogwartsYear": 1,
+  "prose": [
+    "Exams come and go in a blur of ink-stained fingers and half-remembered wand movements, and then, somehow, it's already the last night — the house banners hanging in the Great Hall, the year's points totted up, the food that little bit richer than usual.",
+    "On the train home, the countryside blurs past the window, and {{name}} realizes, somewhere around Scotland's edge, that a year ago none of this — the castle, the {{house}} common room, any of it — existed. Now it's hard to remember what came before."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Wave the summer off from the platform, already counting down to September.", "next": "start-of-year-two" }
+  ]
+}

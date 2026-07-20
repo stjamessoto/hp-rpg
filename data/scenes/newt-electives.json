@@ -1,0 +1,12 @@
+{
+  "id": "newt-electives",
+  "title": "N.E.W.T.-Level Work",
+  "hogwartsYear": 6,
+  "prose": [
+    "Your N.E.W.T. classes are barely a dozen students each now, small enough that there's nowhere to hide if you haven't done the reading. It suits you better than you expected — less noise, more room to actually think.",
+    "{{dada-professor}} sets an essay on advanced counter-jinxes that takes you the better part of a weekend, and for the first time it occurs to you that this is genuinely useful, not just something to pass."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Hand it in a full day early, for once.", "next": "wider-world-y6" }
+  ]
+}

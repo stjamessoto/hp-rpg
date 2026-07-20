@@ -1,0 +1,31 @@
+{
+  "name": "desktop",
+  "private": true,
+  "version": "1.0.0",
+  "main": "main.cjs",
+  "scripts": {
+    "dev": "node dev.cjs",
+    "prepare-www": "node prepare-www.cjs",
+    "start": "npm run prepare-www && electron .",
+    "dist": "npm run prepare-www && electron-builder --win portable"
+  },
+  "devDependencies": {
+    "electron": "^43.1.1",
+    "electron-builder": "^26.15.3"
+  },
+  "build": {
+    "appId": "com.hprpg.desktop",
+    "productName": "HP-RPG",
+    "directories": {
+      "output": "release"
+    },
+    "files": ["main.cjs", "www/**/*"],
+    "win": {
+      "icon": "build/icon.ico",
+      "target": ["portable"]
+    },
+    "portable": {
+      "artifactName": "HP-RPG.exe"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "end-of-year-three",
+  "title": "The End of Your Third Year",
+  "hogwartsYear": 3,
+  "prose": [
+    "Three years in, and the summer feels shorter every time it comes — you've barely unpacked your trunk in your head before it's time to think about packing it again.",
+    "Fourth year has a reputation: harder classes, and, so the older students keep hinting, something rather bigger happening at Hogwarts this time around."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Try and get some information out of a prefect before the summer's over.", "next": "start-of-year-four" }
+  ]
+}

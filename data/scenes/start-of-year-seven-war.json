@@ -1,0 +1,13 @@
+{
+  "id": "start-of-year-seven-war",
+  "title": "Seventh Year, Under New Management",
+  "hogwartsYear": 7,
+  "prose": [
+    "The carriages roll up to a castle that looks the same and isn't. Professor Snape stands where Dumbledore used to stand, at the centre of the staff table, and the two new names on the timetable — Alecto and Amycus Carrow — turn out to teach the kind of lessons no Ministry inspector would ever have approved.",
+    "Muggle Studies is barely recognisable, twisted into something closer to propaganda. Attendance is compulsory. The Sorting still happens, the food still appears, and none of it disguises how much smaller and more watchful the Great Hall feels this year.",
+    "It is, everyone understands without saying so, an especially dangerous year to be Muggle-born — most of the families who could keep their children home this year did."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Keep your head down and get through the first week.", "next": "wider-world-y7-war" }
+  ]
+}

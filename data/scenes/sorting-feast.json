@@ -1,0 +1,14 @@
+{
+  "id": "sorting-feast",
+  "title": "The Sorting Feast",
+  "hogwartsYear": 1,
+  "prose": [
+    "The Great Hall is lit by what must be a thousand floating candles, and above them the ceiling shows a clear, star-scattered sky — bewitched, someone whispers behind you, to look like the sky outside. {{upbringing-reaction}}",
+    "When the Hat calls out {{house}}, the table under that colour erupts, and you make your way over on legs that don't quite feel like your own, sliding onto the bench among a row of strangers who are already making room.",
+    "Then the food arrives — all at once, and far too much of it. Roast potatoes, a joint of beef going pink at the middle, Yorkshire puddings the size of fists, peas, carrots, a gravy boat that never seems to run dry, and at the end of the table a tower of treacle tart that vanishes almost as fast as it's served."
+  ],
+  "choices": [
+    { "id": "talk-to-neighbour", "label": "Introduce yourself to the person next to you.", "next": "first-class" },
+    { "id": "watch-the-hall", "label": "Say nothing yet — just watch the Hall and the other houses.", "next": "first-class" }
+  ]
+}

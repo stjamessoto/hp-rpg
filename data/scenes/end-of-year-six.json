@@ -1,0 +1,23 @@
+{
+  "id": "end-of-year-six",
+  "title": "The End of Your Sixth Year",
+  "hogwartsYear": 6,
+  "prose": [
+    "The last night of sixth year doesn't feel like the ones before it. There's no real ceremony to it — just the ordinary packing, the ordinary train — but conversations trail off half-finished more often than usual, and more than one owl arrives at breakfast carrying news nobody reads aloud.",
+    "Whatever seventh year turns out to be, it won't be quite what any of the years before it were."
+  ],
+  "choices": [
+    {
+      "id": "continue",
+      "label": "Go home for the summer, and wait to see what September brings.",
+      "next": null,
+      "branch": {
+        "on": "calendarYear",
+        "targetHogwartsYear": 7,
+        "calendarYearAtLeast": 1998,
+        "ifTrue": "start-of-year-seven-peace",
+        "ifFalse": "start-of-year-seven-war"
+      }
+    }
+  ]
+}

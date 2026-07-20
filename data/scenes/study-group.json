@@ -1,0 +1,12 @@
+{
+  "id": "study-group",
+  "title": "A Study Group, Off the Books",
+  "hogwartsYear": 5,
+  "prose": [
+    "{{dada-professor}}'s lessons this year are — depending who you ask — either reassuringly theoretical or completely useless, and a quiet consensus builds that the syllabus alone won't be enough if any of you actually need to defend yourselves one day.",
+    "It starts small: a handful of students, an empty classroom after hours, someone who's read ahead teaching the rest what a real Stunning Spell looks like. Nobody puts a name to it. Everyone keeps coming back anyway."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Keep showing up, week after week.", "next": "owls-exams" }
+  ]
+}

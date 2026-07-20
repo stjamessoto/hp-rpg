@@ -1,0 +1,14 @@
+{
+  "id": "first-class",
+  "title": "First Class: Transfiguration",
+  "hogwartsYear": 1,
+  "prose": [
+    "Professor McGonagall is waiting when you file in, standing very straight beside her desk, and the room quiets almost on its own. Before anyone has properly sat down, she is a cat — sitting primly on the desktop, spectacle markings around her eyes — and then, just as suddenly, she isn't.",
+    "\"Transfiguration,\" she says, once the gasps have died down, \"is some of the most complex and dangerous magic you will learn at Hogwarts. Anyone messing around in my class will leave and not come back. You have been warned.\"",
+    "She sets a match in front of each of you and writes a single word on the board: 'needle.' Around the room, matches roll, wobble, and — in one case, from somewhere near the back — briefly catch fire."
+  ],
+  "choices": [
+    { "id": "focus-quietly", "label": "Focus in silence and work through it methodically.", "next": "flying-lesson" },
+    { "id": "help-neighbour", "label": "Lean over and help the person next to you, whose match is smoking slightly.", "next": "flying-lesson" }
+  ]
+}

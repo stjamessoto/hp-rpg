@@ -1,0 +1,12 @@
+{
+  "id": "start-of-year-four",
+  "title": "Fourth Year",
+  "hogwartsYear": 4,
+  "prose": [
+    "The workload steps up again this year — homework that actually eats into a whole evening, professors who've stopped bothering to explain why something matters and just expect you to keep up.",
+    "Even so, the Great Hall on the first night feels exactly as it always has: too loud, too bright, and — for one unrepeatable minute, while the first-years file in behind Professor McGonagall — exactly as overwhelming as it must be for them."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Catch up with housemates over the feast.", "next": "wider-world-y4" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "graduation",
+  "title": "Leaving Hogwarts",
+  "hogwartsYear": 7,
+  "prose": [
+    "The leaving feast is the same feast it's always been — the same too-much food, the same house colours draped over the same four long tables — except that this time, when the last plates clear themselves away, it's genuinely the last time.",
+    "{{name}} looks up at the enchanted ceiling one more time, seven years older than the first night it seemed like the most extraordinary thing in the world, and finds — a little to their own surprise — that it still is."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Walk out through the front doors, out of Hogwarts and into whatever comes next.", "next": null }
+  ]
+}

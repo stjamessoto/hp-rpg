@@ -1,0 +1,12 @@
+{
+  "id": "start-of-year-five",
+  "title": "Fifth Year",
+  "hogwartsYear": 5,
+  "prose": [
+    "O.W.L. year. Every professor says the same thing in the first lesson, in almost the same words, about how this year counts — how the Ordinary Wizarding Levels you sit in June will follow you for the rest of your life.",
+    "The workload arrives to match the warnings. Even the common room feels different: fewer games of Exploding Snap, more silent evenings hunched over essays."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Get started early, for once.", "next": "wider-world-y5" }
+  ]
+}

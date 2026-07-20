@@ -1,0 +1,15 @@
+{
+  "id": "elective-choice",
+  "title": "Choosing an Elective",
+  "hogwartsYear": 3,
+  "prose": [
+    "The list on the board is the same one every third-year agonizes over: Divination, Care of Magical Creatures, Arithmancy, Muggle Studies, Ancient Runes — pick wrong and you're stuck with it for years."
+  ],
+  "choices": [
+    { "id": "divination", "label": "Divination — Professor Trelawney's tower is odd, but the subject's oddly compelling.", "next": "hogsmeade-visit" },
+    { "id": "comc", "label": "Care of Magical Creatures — Hagrid's classes are never, ever boring.", "next": "hogsmeade-visit" },
+    { "id": "arithmancy", "label": "Arithmancy — numbers that actually predict something, for once.", "next": "hogsmeade-visit" },
+    { "id": "muggle-studies", "label": "Muggle Studies — you've got questions, and Professor Burbage has answers.", "next": "hogsmeade-visit" },
+    { "id": "ancient-runes", "label": "Ancient Runes — a language older than the castle itself.", "next": "hogsmeade-visit" }
+  ]
+}

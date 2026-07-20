@@ -1,0 +1,12 @@
+{
+  "id": "fourth-year-class",
+  "title": "Practical Charms",
+  "hogwartsYear": 4,
+  "prose": [
+    "{{dada-professor}} has you practicing the Shield Charm this term — Protego — which is considerably harder to cast under pressure than it looks when a professor demonstrates it calmly at the front of the room.",
+    "By the end of the lesson your arm aches and you've been knocked flat twice, but on the third try the jinx aimed at you actually rebounds — a small, solid kind of satisfaction that homework essays never quite manage to produce."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Head back to the common room, pleased with yourself.", "next": "end-of-year-four" }
+  ]
+}

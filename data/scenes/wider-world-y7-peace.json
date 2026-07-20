@@ -1,0 +1,11 @@
+{
+  "id": "wider-world-y7-peace",
+  "title": "Word From Beyond the Castle Walls",
+  "hogwartsYear": 7,
+  "prose": [
+    "{{wider-world}}"
+  ],
+  "choices": [
+    { "id": "continue", "label": "Turn your attention back to your final year.", "next": "newts-final" }
+  ]
+}

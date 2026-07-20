@@ -1,0 +1,108 @@
+:root {
+  color-scheme: dark;
+  --bg: #14100c;
+  --panel: #1f1811;
+  --ink: #ece3d2;
+  --muted: #a99a80;
+  --accent: #c9a24b;
+  --border: #3a2f22;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+}
+
+#app {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#app-header h1 {
+  margin: 0;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+}
+
+#app-subtitle {
+  margin: 0.25rem 0 1.5rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+#log {
+  flex: 1;
+  overflow-y: auto;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  min-height: 40vh;
+}
+
+.log-entry {
+  margin: 0 0 0.85rem;
+  line-height: 1.55;
+  white-space: pre-line;
+}
+
+.log-entry--player {
+  color: var(--accent);
+  font-style: italic;
+}
+
+#controls {
+  margin-top: 1rem;
+}
+
+.ask-form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.ask-form input {
+  flex: 1;
+  padding: 0.6rem 0.75rem;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  color: var(--ink);
+  font: inherit;
+}
+
+.choice-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  color: var(--ink);
+  padding: 0.6rem 0.9rem;
+  text-align: left;
+}
+
+button:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.ask-form button {
+  text-align: center;
+}

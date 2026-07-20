@@ -1,0 +1,13 @@
+{
+  "id": "hogsmeade-visit",
+  "title": "A Hogsmeade Weekend",
+  "hogwartsYear": 3,
+  "prose": [
+    "Third year, at last, means a signed permission form and a Saturday in the only all-wizarding village in Britain. The high street is small and entirely wizarding — every shop window is stacked with things that would give a Muggle a turn, from self-shuffling playing cards to sherbet that makes your feet leave the ground.",
+    "The Three Broomsticks is warm and loud, thick with the smell of butterbeer, and Madam Rosmerta moves between the tables without seeming to touch the floor. Further down the high street, Honeydukes has a queue out the door already."
+  ],
+  "choices": [
+    { "id": "three-broomsticks", "label": "Duck into the Three Broomsticks for a butterbeer.", "next": "wider-world-y3" },
+    { "id": "honeydukes", "label": "Join the queue at Honeydukes instead.", "next": "wider-world-y3" }
+  ]
+}

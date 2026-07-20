@@ -1,0 +1,12 @@
+{
+  "id": "muggle-born-in-hiding",
+  "title": "The Registration Commission",
+  "hogwartsYear": 7,
+  "prose": [
+    "For most of your housemates, this year is dangerous in the abstract — a bad feeling in the corridors, a professor to avoid. For {{name}}, it's closer than that. The Muggle-born Registration Commission wants proof of magical heritage that doesn't exist to give, and the wrong answer to the wrong question means Azkaban, or worse.",
+    "A quiet network of people who'd rather not be named helps where it can — forged paperwork, a borrowed family tree, a housemate willing to vouch for a cover story and mean it. It isn't safety, not really. It's just enough to keep going."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Keep your head down, trust the people helping you, and keep going.", "next": "resistance-y7" }
+  ]
+}

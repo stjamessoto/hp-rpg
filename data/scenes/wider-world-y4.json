@@ -1,0 +1,11 @@
+{
+  "id": "wider-world-y4",
+  "title": "Word From Beyond the Castle Walls",
+  "hogwartsYear": 4,
+  "prose": [
+    "{{wider-world}}"
+  ],
+  "choices": [
+    { "id": "continue", "label": "Get back to your own year, whatever else is going on in the world.", "next": "fourth-year-class" }
+  ]
+}

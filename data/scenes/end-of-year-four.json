@@ -1,0 +1,11 @@
+{
+  "id": "end-of-year-four",
+  "title": "The End of Your Fourth Year",
+  "hogwartsYear": 4,
+  "prose": [
+    "Fourth year closes the way it opened — busy, a little breathless — but there's a new undercurrent on the train home: fifth year means O.W.L.s, and even the older students have started saying the word in a slightly different tone."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Decide to enjoy the summer before worrying about that.", "next": "start-of-year-five" }
+  ]
+}

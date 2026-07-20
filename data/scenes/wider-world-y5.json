@@ -1,0 +1,11 @@
+{
+  "id": "wider-world-y5",
+  "title": "Word From Beyond the Castle Walls",
+  "hogwartsYear": 5,
+  "prose": [
+    "{{wider-world}}"
+  ],
+  "choices": [
+    { "id": "continue", "label": "Try to focus on your O.W.L.s regardless.", "next": "study-group" }
+  ]
+}

@@ -1,0 +1,204 @@
+[
+  {
+    "id": "riddle-born",
+    "year": 1926,
+    "date": "31 December 1926",
+    "title": "Tom Marvolo Riddle is born",
+    "description": "Born at a Muggle orphanage in London to Merope Gaunt, who dies shortly after naming him.",
+    "relatedCharacterIds": [
+      "tom-riddle"
+    ],
+    "canonTier": "book",
+    "source": "Half-Blood Prince, ch. 13"
+  },
+  {
+    "id": "grindelwald-defeated",
+    "year": 1945,
+    "date": null,
+    "title": "Dumbledore defeats Gellert Grindelwald",
+    "description": "Albus Dumbledore duels and defeats the dark wizard Gellert Grindelwald, ending his rise to power.",
+    "relatedCharacterIds": [
+      "albus-dumbledore"
+    ],
+    "canonTier": "book",
+    "source": "Philosopher's Stone, ch. 6 (Chocolate Frog card); Deathly Hallows"
+  },
+  {
+    "id": "chamber-opened-1943",
+    "year": 1943,
+    "date": null,
+    "title": "The Chamber of Secrets is opened",
+    "description": "Tom Riddle opens the Chamber of Secrets, and Myrtle Warren is killed by the Basilisk. Hagrid is wrongly expelled.",
+    "relatedCharacterIds": [
+      "tom-riddle",
+      "rubeus-hagrid"
+    ],
+    "canonTier": "book",
+    "source": "Chamber of Secrets"
+  },
+  {
+    "id": "godrics-hollow",
+    "year": 1981,
+    "date": "31 October 1981",
+    "title": "The attack at Godric's Hollow",
+    "description": "Voldemort kills James and Lily Potter and attempts to kill their son Harry; the curse rebounds, and Voldemort loses his body.",
+    "relatedCharacterIds": [
+      "james-potter",
+      "lily-potter",
+      "harry-potter",
+      "tom-riddle"
+    ],
+    "canonTier": "book",
+    "source": "Philosopher's Stone, ch. 1"
+  },
+  {
+    "id": "harry-starts-hogwarts",
+    "year": 1991,
+    "date": "1 September 1991",
+    "title": "Harry Potter starts at Hogwarts",
+    "description": "Harry begins his first year at Hogwarts School of Witchcraft and Wizardry and is sorted into Gryffindor.",
+    "relatedCharacterIds": [
+      "harry-potter",
+      "ron-weasley",
+      "hermione-granger"
+    ],
+    "canonTier": "book",
+    "source": "Philosopher's Stone"
+  },
+  {
+    "id": "chamber-reopened-1993",
+    "year": 1992,
+    "date": null,
+    "title": "The Chamber of Secrets is reopened",
+    "description": "Ginny Weasley, possessed via Tom Riddle's diary, reopens the Chamber; Harry destroys the diary and kills the Basilisk.",
+    "relatedCharacterIds": [
+      "ginny-weasley",
+      "harry-potter",
+      "tom-riddle"
+    ],
+    "canonTier": "book",
+    "source": "Chamber of Secrets"
+  },
+  {
+    "id": "sirius-escapes-azkaban",
+    "year": 1993,
+    "date": null,
+    "title": "Sirius Black escapes Azkaban",
+    "description": "Sirius Black breaks out of Azkaban, the first successful unaided escape from the prison.",
+    "relatedCharacterIds": [
+      "sirius-black"
+    ],
+    "canonTier": "book",
+    "source": "Prisoner of Azkaban"
+  },
+  {
+    "id": "triwizard-tournament",
+    "year": 1994,
+    "date": null,
+    "title": "The Triwizard Tournament is held at Hogwarts",
+    "description": "Hogwarts hosts Beauxbatons and Durmstrang for the Triwizard Tournament; Harry is unexpectedly entered as a fourth champion.",
+    "relatedCharacterIds": [
+      "harry-potter",
+      "cedric-diggory"
+    ],
+    "canonTier": "book",
+    "source": "Goblet of Fire"
+  },
+  {
+    "id": "voldemort-returns",
+    "year": 1995,
+    "date": "24 June 1995",
+    "title": "Voldemort returns to a body",
+    "description": "In a graveyard in Little Hangleton, Voldemort is restored to a body; Cedric Diggory is murdered on his order.",
+    "relatedCharacterIds": [
+      "tom-riddle",
+      "harry-potter",
+      "cedric-diggory"
+    ],
+    "canonTier": "book",
+    "source": "Goblet of Fire, ch. 32-34"
+  },
+  {
+    "id": "battle-department-of-mysteries",
+    "year": 1996,
+    "date": "18 June 1996",
+    "title": "Battle of the Department of Mysteries",
+    "description": "Dumbledore's Army fights Death Eaters at the Ministry; Sirius Black is killed by Bellatrix Lestrange.",
+    "relatedCharacterIds": [
+      "harry-potter",
+      "sirius-black",
+      "bellatrix-lestrange"
+    ],
+    "canonTier": "book",
+    "source": "Order of the Phoenix, ch. 35"
+  },
+  {
+    "id": "dumbledore-dies",
+    "year": 1997,
+    "date": "30 June 1997",
+    "title": "The death of Albus Dumbledore",
+    "description": "Severus Snape kills Dumbledore atop the Astronomy Tower during a Death Eater attack on Hogwarts.",
+    "relatedCharacterIds": [
+      "albus-dumbledore",
+      "severus-snape"
+    ],
+    "canonTier": "book",
+    "source": "Half-Blood Prince, ch. 27"
+  },
+  {
+    "id": "ministry-falls",
+    "year": 1997,
+    "date": "1 August 1997",
+    "title": "The Ministry of Magic falls",
+    "description": "Death Eaters seize control of the Ministry; the wedding of Bill Weasley and Fleur Delacour is attacked the same day.",
+    "relatedCharacterIds": [
+      "harry-potter",
+      "ron-weasley",
+      "hermione-granger"
+    ],
+    "canonTier": "book",
+    "source": "Deathly Hallows, ch. 8-9"
+  },
+  {
+    "id": "muggle-born-registration",
+    "year": 1997,
+    "date": null,
+    "title": "The Muggle-born Registration Commission is established",
+    "description": "The Death Eater-controlled Ministry forces Muggle-born witches and wizards to 'prove' magical heritage or face imprisonment.",
+    "relatedCharacterIds": [],
+    "canonTier": "book",
+    "source": "Deathly Hallows, ch. 12-13"
+  },
+  {
+    "id": "battle-of-hogwarts",
+    "year": 1998,
+    "date": "2 May 1998",
+    "title": "The Battle of Hogwarts",
+    "description": "The final battle between Voldemort's forces and the defenders of Hogwarts; Voldemort is killed by his own rebounding curse.",
+    "relatedCharacterIds": [
+      "harry-potter",
+      "tom-riddle",
+      "severus-snape",
+      "fred-weasley",
+      "remus-lupin",
+      "bellatrix-lestrange",
+      "peter-pettigrew"
+    ],
+    "canonTier": "book",
+    "source": "Deathly Hallows, ch. 31-36"
+  },
+  {
+    "id": "epilogue",
+    "year": 2017,
+    "date": "1 September 2017",
+    "title": "Nineteen years later",
+    "description": "Harry and his former classmates see their own children off to Hogwarts from King's Cross station.",
+    "relatedCharacterIds": [
+      "harry-potter",
+      "ron-weasley",
+      "hermione-granger"
+    ],
+    "canonTier": "book",
+    "source": "Deathly Hallows, epilogue"
+  }
+]

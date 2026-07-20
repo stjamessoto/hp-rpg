@@ -1,0 +1,13 @@
+{
+  "id": "end-of-year-seven-battle",
+  "title": "The Battle of Hogwarts",
+  "hogwartsYear": 7,
+  "prose": [
+    "It happens on the second of May: Voldemort's forces at the gates, and Professor McGonagall — headmistress in every way that matters now, whatever the official title says — giving everyone underage or unwilling the chance to leave through the passage to Hogsmeade before the wards come down.",
+    "You stay. So do most of the people you've spent the last few months hiding students and scrawling defiance on corridor walls with. The battle that follows is loud and long and frightening in a way no lesson could have prepared you for — spells lighting the dark, the castle itself shuddering under things far worse than a moving staircase.",
+    "Somewhere across the grounds, past what you can actually see of it, the thing that's been building for seven years finally ends. By the time the sun comes up over a battered, still-standing castle, you're still on your feet — tired beyond words, and alive, and aware that you'll be telling this story for the rest of your life."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Stand in the wreckage of the Great Hall as the sun comes up.", "next": null }
+  ]
+}
