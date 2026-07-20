@@ -1,0 +1,14 @@
+{
+  "id": "quidditch-match-y1",
+  "title": "Your First Quidditch Match",
+  "hogwartsYear": 1,
+  "prose": [
+    "The whole school turns out for it, scarves and rosettes in house colours, a magically amplified commentary voice rattling off names faster than you can match them to the tiny, distant figures wheeling over the pitch.",
+    "It's cold enough that your hands go numb around your cup of hot chocolate, and none of it matters the second the Snitch is spotted — the whole stand lurches forward as one, shouting, as two Seekers dive nearly vertically with the crowd's breath held in a single collective knot.",
+    "Whichever way the final whistle goes, the walk back up to the castle afterward is loud with replays and arguments about a call the referee definitely got wrong, and for a little while the whole school agrees on nothing quite so completely as Quidditch."
+  ],
+  "choices": [
+    { "id": "your-house-wins", "label": "Your house takes it, in the end.", "next": "exam-prep-y1" },
+    { "id": "close-loss", "label": "A close loss — there's always the next match.", "next": "exam-prep-y1" }
+  ]
+}

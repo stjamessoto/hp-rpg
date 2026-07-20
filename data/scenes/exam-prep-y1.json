@@ -1,0 +1,14 @@
+{
+  "id": "exam-prep-y1",
+  "title": "Revision",
+  "hogwartsYear": 1,
+  "prose": [
+    "The last fortnight of term turns the whole castle strange: the library fuller than you've ever seen it, older students muttering mnemonics under their breath in corridors, a general low hum of anxiety that even the portraits seem to have picked up on.",
+    "Your own exams are hardly the N.E.W.T.s everyone keeps darkly referencing, but they're real enough — written papers for most subjects, and a practical for Charms and Transfiguration where Flitwick and McGonagall watch, clipboard in hand, while you try to remember which wand movement goes with which spell under the worst possible pressure.",
+    "By the time the last exam ends, the collective sound the year group makes in the entrance hall is somewhere between a cheer and a whimper."
+  ],
+  "choices": [
+    { "id": "revised-hard", "label": "You revised properly, and it showed.", "next": "end-of-year-one" },
+    { "id": "winged-it", "label": "You mostly winged it and hoped for the best.", "next": "end-of-year-one" }
+  ]
+}

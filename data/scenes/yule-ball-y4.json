@@ -1,0 +1,15 @@
+{
+  "id": "yule-ball-y4",
+  "title": "The Yule Ball",
+  "hogwartsYear": 4,
+  "prose": [
+    "As part of hosting the Tournament, Hogwarts is holding a Yule Ball on Christmas Day — fourth-years and up allowed to attend, younger students allowed only if someone older asks them, which turns the whole run-up to Christmas into a minor social crisis for half the school.",
+    "The Great Hall is transformed for the night: real ice sculptures, a thousand fairy lights strung between silver-frosted trees, the Weird Sisters playing loud enough to feel through the floor. Dress robes that looked ridiculous in the shop somehow look right under the enchanted ceiling's soft, star-strewn light.",
+    "Whatever the rest of the year turns out to hold, this one night is unambiguously, simply good — dancing badly, laughing about it, and for a few hours not thinking about Dark Marks or dragons or anything at all beyond the next song."
+  ],
+  "choices": [
+    { "id": "asked-someone", "label": "You worked up the nerve to ask someone yourself.", "next": "triwizard-tasks-y4" },
+    { "id": "was-asked", "label": "Someone else worked up the nerve first.", "next": "triwizard-tasks-y4" },
+    { "id": "went-with-friends", "label": "You went with a group of friends, no dates involved.", "next": "triwizard-tasks-y4" }
+  ]
+}

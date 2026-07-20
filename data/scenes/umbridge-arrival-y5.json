@@ -1,0 +1,14 @@
+{
+  "id": "umbridge-arrival-y5",
+  "title": "The High Inquisitor",
+  "hogwartsYear": 5,
+  "prose": [
+    "This year's Defence Against the Dark Arts post goes to a Ministry witch named Dolores Umbridge, pink cardigan and girlish voice at complete odds with a stare that makes even prefects go quiet. Her first lesson is entirely out of a textbook, no wands raised at all — \"there is no reason you would need to use spells in my classroom,\" she says, smiling the whole time, which is somehow worse than if she'd shouted it.",
+    "It gets stranger from there. A new title — High Inquisitor — appointed by the Ministry, giving her the power to inspect other professors' teaching and issue punishments the Headmaster himself can't override. Educational Decrees start appearing on the notice board with increasing regularity, each one trimming away something that was, a week before, just ordinary school life: student organisations banned without her personal sign-off, teachers barred from giving out information 'not directly relevant' to their subject.",
+    "The mood in every common room, regardless of house, settles into the same uneasy question: how much worse is this going to get before someone above her puts a stop to it."
+  ],
+  "choices": [
+    { "id": "keep-quiet", "label": "Decide the safest thing is to keep your head down.", "next": "educational-decrees-y5" },
+    { "id": "quietly-furious", "label": "Keep your head down outwardly — inwardly, you're furious.", "next": "educational-decrees-y5" }
+  ]
+}

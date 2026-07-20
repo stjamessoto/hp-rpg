@@ -1,0 +1,21 @@
+{
+  "id": "third-year-branch",
+  "title": "The Shape of the Year",
+  "hogwartsYear": 3,
+  "prose": [
+    "Looking back over the year so far, it's worth taking stock of what's actually been happening around you, beyond your own timetable."
+  ],
+  "choices": [
+    {
+      "id": "continue",
+      "label": "Take stock.",
+      "next": null,
+      "branch": {
+        "on": "calendarYearLookup",
+        "targetHogwartsYear": 3,
+        "cases": { "1993": "dementors-arrival-y3" },
+        "fallback": "ordinary-third-year-y3"
+      }
+    }
+  ]
+}

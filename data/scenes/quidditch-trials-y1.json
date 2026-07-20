@@ -1,0 +1,15 @@
+{
+  "id": "quidditch-trials-y1",
+  "title": "Quidditch Trials",
+  "hogwartsYear": 1,
+  "prose": [
+    "A notice goes up on the {{house}} board: trials for the house team, this Saturday. First-years, the small print reminds everyone, aren't allowed brooms of their own and essentially never make the team — but nothing stops you wandering down to the pitch to watch anyway, along with half the common room.",
+    "It's louder and faster than you expected, seven players a side wheeling and diving after balls you can barely track, the Quaffle changing hands in blurs, a Bludger cracking off a goalpost hard enough that you feel it in your teeth from the stands.",
+    "Walking back up to the castle afterward, you catch yourself already working out which position you'd want, if you ever got the chance."
+  ],
+  "choices": [
+    { "id": "chaser", "label": "Chaser — you like the idea of being where the action is.", "next": "halloween-feast-y1" },
+    { "id": "keeper", "label": "Keeper — someone has to be the last line of defence.", "next": "halloween-feast-y1" },
+    { "id": "not-fussed", "label": "Honestly, just watching was thrilling enough.", "next": "halloween-feast-y1" }
+  ]
+}

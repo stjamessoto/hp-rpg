@@ -1,0 +1,13 @@
+{
+  "id": "ancient-runes-class-y6",
+  "title": "An Advanced Elective",
+  "hogwartsYear": 6,
+  "prose": [
+    "N.E.W.T.-level classes are smaller and stranger than anything before them — a handful of committed students clustered around a subject dense enough that the professor stops bothering with the basics almost immediately, assuming you've already done the reading.",
+    "It's harder than anything you've taken before, and more satisfying for it. There's a particular pleasure in a subject that finally trusts you to keep up."
+  ],
+  "choices": [
+    { "id": "thriving", "label": "You're thriving under the harder pace.", "next": "sixth-year-branch" },
+    { "id": "just-keeping-up", "label": "You're keeping up — just about.", "next": "sixth-year-branch" }
+  ]
+}

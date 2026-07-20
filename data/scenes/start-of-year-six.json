@@ -7,6 +7,6 @@
     "There's a heaviness to the castle this year that wasn't there before, hard to name exactly — nothing anyone says outright, just a sense that the adults around you are watching the news a little too closely."
   ],
   "choices": [
-    { "id": "continue", "label": "Push it aside and get to your first N.E.W.T. lesson.", "next": "newt-electives" }
+    { "id": "continue", "label": "Push it aside and get to your first N.E.W.T. lesson.", "next": "career-advice-y6" }
   ]
 }

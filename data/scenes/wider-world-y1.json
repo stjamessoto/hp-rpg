@@ -7,6 +7,6 @@
     "{{wider-world}}"
   ],
   "choices": [
-    { "id": "continue", "label": "Turn back to your own small corner of it all.", "next": "end-of-year-one" }
+    { "id": "continue", "label": "Turn back to your own small corner of it all.", "next": "quidditch-match-y1" }
   ]
 }

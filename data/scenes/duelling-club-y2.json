@@ -1,0 +1,14 @@
+{
+  "id": "duelling-club-y2",
+  "title": "The Duelling Club",
+  "hogwartsYear": 2,
+  "prose": [
+    "A notice goes up announcing a new Duelling Club, and half the school turns out to the Great Hall to see it, a raised platform set up where the house tables usually stand. {{dada-professor}} takes the stage with a theatrical bow, invites Professor Snape up as a demonstration partner — and is disarmed so fast and so completely that the flash of light sends him flying backward off the platform, to a wave of laughter nobody quite manages to hide.",
+    "The lesson proper is Expelliarmus, paired off student against student, and yours goes about as well as anyone's — you get disarmed twice and land one clean hit, which counts as a personal victory by the standards of the evening.",
+    "Then, further down the platform, something goes properly wrong: a conjured snake, rearing up at a student who's fallen back from it — and Harry Potter steps forward and says something to it. Not English. The snake lowers itself and the whole Hall goes deathly quiet, then erupts into whispers that don't stop for days. You didn't understand a word of it, and neither, it's suddenly very clear, did anyone else."
+  ],
+  "choices": [
+    { "id": "unsettled", "label": "That was one of the strangest things you've ever seen.", "next": "petrification-fear-y2" },
+    { "id": "focus-on-duelling", "label": "Try to focus on what it meant for the rumours, not the spectacle.", "next": "petrification-fear-y2" }
+  ]
+}

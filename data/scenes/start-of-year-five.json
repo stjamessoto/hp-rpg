@@ -7,6 +7,6 @@
     "The workload arrives to match the warnings. Even the common room feels different: fewer games of Exploding Snap, more silent evenings hunched over essays."
   ],
   "choices": [
-    { "id": "continue", "label": "Get started early, for once.", "next": "wider-world-y5" }
+    { "id": "continue", "label": "Get started early, for once.", "next": "herbology-class-y5" }
   ]
 }

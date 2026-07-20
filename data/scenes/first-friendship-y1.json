@@ -1,0 +1,13 @@
+{
+  "id": "first-friendship-y1",
+  "title": "Someone to Sit With",
+  "hogwartsYear": 1,
+  "prose": [
+    "It happens without you quite noticing it happen: somewhere in the last few weeks, there's stopped being a question of where to sit at meals, or who to partner with in class. A face that was a stranger on the train is just — someone you know now. A friend, if you're being honest about it.",
+    "It isn't dramatic. Nobody saves anybody from a troll or a burning tapestry. It's smaller than that: an inside joke about a professor's handwriting, a shared stash of Chocolate Frogs, someone saving you a seat without being asked.",
+    "Whatever else this year turns out to hold, that part, at least, already feels solid."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Let it be exactly as unremarkable and important as it is.", "next": "christmas-at-hogwarts-y1" }
+  ]
+}

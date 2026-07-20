@@ -7,6 +7,6 @@
     "Even so, the Great Hall on the first night feels exactly as it always has: too loud, too bright, and — for one unrepeatable minute, while the first-years file in behind Professor McGonagall — exactly as overwhelming as it must be for them."
   ],
   "choices": [
-    { "id": "continue", "label": "Catch up with housemates over the feast.", "next": "wider-world-y4" }
+    { "id": "continue", "label": "Catch up with housemates over the feast.", "next": "potions-class-y4" }
   ]
 }

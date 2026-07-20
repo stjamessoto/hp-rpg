@@ -1,0 +1,14 @@
+{
+  "id": "history-of-magic-class-y2",
+  "title": "History of Magic",
+  "hogwartsYear": 2,
+  "prose": [
+    "Professor Binns is, as ever, dead — technically, a ghost who never noticed he'd stopped being alive, drifting up through the blackboard each lesson and droning on in exactly the same monotone he must have used for decades. It is, by wide agreement, the only class where falling asleep is a realistic risk.",
+    "Today's lecture is goblin rebellions, delivered with the enthusiasm of a man reading a shopping list, while half the room takes notes on autopilot and the other half doodles in the margins.",
+    "You do, despite yourself, retain about a third of it — which, judging by the rest of the room, puts you comfortably ahead of the curve."
+  ],
+  "choices": [
+    { "id": "actually-listened", "label": "You genuinely tried to follow along.", "next": "quidditch-tryout-y2" },
+    { "id": "doodled-instead", "label": "You spent the lesson doodling instead.", "next": "quidditch-tryout-y2" }
+  ]
+}

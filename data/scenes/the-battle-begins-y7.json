@@ -1,0 +1,13 @@
+{
+  "id": "the-battle-begins-y7",
+  "title": "Word Spreads",
+  "hogwartsYear": 7,
+  "prose": [
+    "It moves through the school faster than anything all year: Harry Potter is back at Hogwarts. Nobody quite knows why, at first, or how he got in with the whole country supposedly watching for him — only that Professor McGonagall duels Snape openly in the entrance hall, that Snape flees the castle entirely, and that by nightfall the staff and students still willing to fight are being openly, urgently organised for the first time all year.",
+    "Older students you've never spoken to are suddenly handing out instructions. First-years and anyone unwilling are being gathered for evacuation. Somewhere outside the grounds, Voldemort's forces are known to already be moving.",
+    "There isn't much time to decide what kind of person you're going to be about this. As it turns out, you don't really need much."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Find out where you're needed.", "next": "end-of-year-seven-battle" }
+  ]
+}

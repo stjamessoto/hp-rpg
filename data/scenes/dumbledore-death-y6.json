@@ -1,0 +1,14 @@
+{
+  "id": "dumbledore-death-y6",
+  "title": "The Astronomy Tower",
+  "hogwartsYear": 6,
+  "prose": [
+    "It happens at the very end of the year, and it happens fast: Death Eaters inside the castle itself, smuggled in through means nobody fully understands until much later, a fight breaking out across the grounds and towers in the dark. By the time the full story circulates, it's almost too much to take in at once — Draco Malfoy, a boy in your own school, had spent the year on a mission for Voldemort himself, and it ended with Professor Snape, of all people, killing Albus Dumbledore atop the Astronomy Tower before fleeing the grounds.",
+    "The leaving feast that follows has no house banners, no house colours at all — just the whole school in black, and Professor McGonagall's voice, usually so steady, audibly unsteady as she asks everyone to remember exactly what Dumbledore stood for.",
+    "You'd been at Hogwarts long enough by now to think you understood what the castle could weather. Losing its Headmaster teaches you, all at once, that you didn't."
+  ],
+  "choices": [
+    { "id": "grieving", "label": "It's the worst thing you've lived through at Hogwarts, by a wide margin.", "next": "end-of-year-six" },
+    { "id": "resolved", "label": "Grief, yes — but also a hardening resolve about what comes next.", "next": "end-of-year-six" }
+  ]
+}

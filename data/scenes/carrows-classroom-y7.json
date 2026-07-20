@@ -1,0 +1,14 @@
+{
+  "id": "carrows-classroom-y7",
+  "title": "The Carrows' Classroom",
+  "hogwartsYear": 7,
+  "prose": [
+    "Defence Against the Dark Arts under Amycus Carrow isn't defence at all — it's the Dark Arts themselves, taught approvingly, with an undertone that makes it clear which side of the subject he expects you to end up on. Students who push back, even quietly, don't get detention in any ordinary sense of the word.",
+    "The stories move through the school in whispers rather than announcements — who got called to the front of class this week, who came back from it not quite steady on their feet. Nobody talks about it directly. Everyone knows anyway.",
+    "You learn quickly which questions are safe to ask out loud and which ones aren't, and the gap between those two categories keeps getting narrower as the term goes on."
+  ],
+  "choices": [
+    { "id": "keep-silent", "label": "Say nothing, in class or out of it, and hope that's enough.", "next": "quiet-moment-y7-war" },
+    { "id": "small-defiance", "label": "Find small, careful ways to push back anyway.", "next": "quiet-moment-y7-war" }
+  ]
+}

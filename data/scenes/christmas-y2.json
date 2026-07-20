@@ -1,0 +1,13 @@
+{
+  "id": "christmas-y2",
+  "title": "A Quieter Christmas",
+  "hogwartsYear": 2,
+  "prose": [
+    "A second Christmas at Hogwarts is a different thing from a first — less wide-eyed wonder at the decorated suits of armour and the twelve towering trees in the Great Hall, more a settled, comfortable knowledge of exactly how good the whole thing is going to be.",
+    "Whether you stay at the castle or head home for the break, there's a letter or two waiting, a stocking that somehow found you regardless, and the particular, unhurried pleasure of a school with half its usual noise gone quiet."
+  ],
+  "choices": [
+    { "id": "stayed-at-school", "label": "You stayed at Hogwarts for the holidays.", "next": "hogwarts-library-y2" },
+    { "id": "went-home", "label": "You went home for the break.", "next": "hogwarts-library-y2" }
+  ]
+}

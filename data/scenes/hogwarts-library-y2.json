@@ -1,0 +1,13 @@
+{
+  "id": "hogwarts-library-y2",
+  "title": "An Afternoon in the Library",
+  "hogwartsYear": 2,
+  "prose": [
+    "The library is enormous and mostly silent, Madam Pince patrolling the stacks like she's daring someone to so much as breathe on a book cover wrong. The Restricted Section looms behind its rope at the back — off-limits without a signed note from a professor, which only makes it more interesting.",
+    "You're technically here for a Herbology essay, but it's easy to lose an hour just following one footnote to the next shelf, then the next, in a building that seems to have a book on absolutely everything."
+  ],
+  "choices": [
+    { "id": "finished-essay", "label": "Actually finish the essay you came for.", "next": "second-year-branch" },
+    { "id": "got-distracted", "label": "Get pleasantly distracted by something unrelated.", "next": "second-year-branch" }
+  ]
+}

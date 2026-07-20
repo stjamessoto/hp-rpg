@@ -1,0 +1,13 @@
+{
+  "id": "reflection-y7-peace",
+  "title": "Looking Back on It",
+  "hogwartsYear": 7,
+  "prose": [
+    "Seven years is long enough that the early ones have started to feel like they happened to someone else — a first-year gawking at the ceiling of the Great Hall, a second-year worrying over exams that seem laughably small now, a person who hadn't yet met most of the people who matter most.",
+    "It's strange, catching sight of all that distance at once. Mostly, though, it feels like arriving somewhere, rather than just leaving somewhere behind."
+  ],
+  "choices": [
+    { "id": "proud-of-the-distance", "label": "You're proud of how far you've come.", "next": "hogsmeade-y7-peace" },
+    { "id": "bittersweet", "label": "It's bittersweet more than anything.", "next": "hogsmeade-y7-peace" }
+  ]
+}

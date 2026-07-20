@@ -1,0 +1,13 @@
+{
+  "id": "potions-class-y4",
+  "title": "Potions, Four Years In",
+  "hogwartsYear": 4,
+  "prose": [
+    "{{potions-professor}} has stopped bothering with warnings about foolish wand-waving — four years in, the class either has the discipline for the dungeons by now or it doesn't. Today's potion is genuinely dangerous if rushed, a Strengthening Solution with a narrow window between 'ready' and 'ruined.'",
+    "You watch the colour change through exactly the stages the textbook describes, holding your breath a little at the point where it's supposed to turn from violent purple to a calm, clear blue. It does. Small victories, in this classroom, still count for a great deal."
+  ],
+  "choices": [
+    { "id": "nailed-it", "label": "A clean, correct potion — no complaints from the front of the room.", "next": "hogsmeade-y4" },
+    { "id": "nervous-wreck", "label": "It worked, but your nerves were shot the entire lesson.", "next": "hogsmeade-y4" }
+  ]
+}

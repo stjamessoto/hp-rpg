@@ -125,6 +125,13 @@
         "source": "Philosopher's Stone, ch. 5"
       },
       {
+        "id": "madam-malkins",
+        "name": "Madam Malkin's Robes for All Occasions",
+        "description": "A robe shop where first-years are fitted for their school uniform.",
+        "canonTier": "book",
+        "source": "Philosopher's Stone, ch. 5"
+      },
+      {
         "id": "knockturn-alley",
         "name": "Knockturn Alley",
         "description": "A dark side-street off Diagon Alley associated with the Dark Arts.",

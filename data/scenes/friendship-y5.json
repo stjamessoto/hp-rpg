@@ -1,0 +1,13 @@
+{
+  "id": "friendship-y5",
+  "title": "Leaning On Each Other",
+  "hogwartsYear": 5,
+  "prose": [
+    "O.W.L. year presses on everyone at once — the same tight shoulders in the library, the same too-many-books-for-one-bag, the same short tempers by ten o'clock at night — and somewhere in the middle of it, the friends who'll actually get you through it make themselves known.",
+    "Not through any single grand gesture. Just showing up. A shared table in the library, someone else's notes when yours don't make sense, a reason to laugh for five minutes before going back to it."
+  ],
+  "choices": [
+    { "id": "lean-in", "label": "You lean on them, and let them lean on you.", "next": "fifth-year-branch" },
+    { "id": "power-through-alone", "label": "You mostly try to power through it alone.", "next": "fifth-year-branch" }
+  ]
+}

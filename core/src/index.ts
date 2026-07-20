@@ -24,8 +24,11 @@ export * from "./canon/validator.js";
 
 // Gameplay loop
 export * from "./game/types.js";
-export { runGameLoop, runScene } from "./game/sceneEngine.js";
-export { buildWiderWorldParagraph, getDadaProfessor } from "./game/widerWorld.js";
+export type { GameLoopOptions } from "./game/sceneEngine.js";
+export { runGameLoop, runScene, CUSTOM_ACTION_ID } from "./game/sceneEngine.js";
+export { buildWiderWorldParagraph, getDadaProfessor, getSubjectProfessor } from "./game/widerWorld.js";
 export { getUpbringingReaction } from "./game/reactions.js";
-export { buildNarratorContext } from "./game/narratorPrompt.js";
+export { buildNarratorContext, buildFreeActionContext } from "./game/narratorPrompt.js";
 export { sceneBundle, INTRO_START_SCENE_ID } from "./game/scenesLoader.js";
+export type { GameProgress } from "./game/gameSave.js";
+export { saveGameProgress, loadGameProgress, deleteGameProgress } from "./game/gameSave.js";

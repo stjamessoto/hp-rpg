@@ -1,0 +1,13 @@
+{
+  "id": "house-elf-welfare-y4",
+  "title": "Below the Great Hall",
+  "hogwartsYear": 4,
+  "prose": [
+    "A wrong turn on the way back from the kitchens — chasing a rumour about how to get in, more than any real hunger — puts you face to face with the small army of house-elves who keep Hogwarts fed, three of them bowing so low their noses nearly touch the flagstones before you've said a word.",
+    "They seem, as far as you can tell, genuinely delighted to be there. Whether that's the whole truth of it is a harder question, and one you can't quite put down again once you've thought to ask it."
+  ],
+  "choices": [
+    { "id": "unsettled-by-it", "label": "Something about it sits uneasily with you.", "next": "fourth-year-class" },
+    { "id": "didnt-think-much-of-it", "label": "You don't think much more about it.", "next": "fourth-year-class" }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "herbology-class-y5",
+  "title": "Herbology, O.W.L. Style",
+  "hogwartsYear": 5,
+  "prose": [
+    "Professor Sprout has stopped letting anyone coast. This term's Herbology is all O.W.L. syllabus — Bubotubers, whose pus you're now trusted to squeeze into bottles without an adult standing over you, and a written test on magical-plant properties that catches out more than half the class.",
+    "\"You will not get a Dragon Dung Fertiliser question wrong on your O.W.L. and blame me for it,\" she says, not unkindly, handing back a stack of marked essays with rather more red ink on them than usual."
+  ],
+  "choices": [
+    { "id": "took-notes", "label": "Take the warning seriously and revise properly.", "next": "hogsmeade-y5" },
+    { "id": "shrugged-off", "label": "File it under 'later problems' for now.", "next": "hogsmeade-y5" }
+  ]
+}

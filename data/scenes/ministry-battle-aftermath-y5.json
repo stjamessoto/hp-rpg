@@ -1,0 +1,14 @@
+{
+  "id": "ministry-battle-aftermath-y5",
+  "title": "The Battle of the Department of Mysteries",
+  "hogwartsYear": 5,
+  "prose": [
+    "The story reaches the school in pieces, and every piece is worse than the one before: Harry Potter and half a dozen others — DA members, some of them people you know by name — went to the Ministry of Magic itself in the dead of night, into a battle against Death Eaters in a room full of prophecy orbs. Sirius Black, cleared at last of the crime that sent him to Azkaban, was killed there, struck down by his own cousin.",
+    "It's the confirmation nobody in power could keep denying any longer: Voldemort is unmistakably, publicly back, and the Ministry has to admit it at last, live in the Daily Prophet, a full year after most of the school had already worked it out for themselves.",
+    "Dolores Umbridge doesn't return to Hogwarts after that night — the details of exactly what happened to her stay murky and much-speculated-about, but her post as High Inquisitor simply evaporates, decrees and all, and the noticeboard is bare again by the time term ends."
+  ],
+  "choices": [
+    { "id": "relieved-and-grieving", "label": "Relief that it's finally acknowledged, grief for what it cost.", "next": "owls-exams" },
+    { "id": "afraid-of-whats-next", "label": "Mostly, you're afraid of what comes next.", "next": "owls-exams" }
+  ]
+}

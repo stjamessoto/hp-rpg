@@ -1,0 +1,14 @@
+{
+  "id": "graveyard-aftermath-y4",
+  "title": "What Happened at the Cup",
+  "hogwartsYear": 4,
+  "prose": [
+    "The cheer doesn't last. Within minutes, word starts moving through the crowd that something is wrong — Dumbledore sprinting across the grounds, professors' faces gone suddenly grey. The truth, when it reaches you, arrives in fragments, each one worse than the last: the Cup was a Portkey, rigged to pull both champions away to a graveyard. Cedric Diggory is dead. Harry Potter came back holding his body, saying a name most of the wizarding world has spent thirteen years too frightened to speak — that Voldemort is back.",
+    "The end-of-term feast that follows is unlike any other you've sat through: black drapes instead of house colours, Dumbledore's voice steady but unmistakably grim as he asks the school to remember Cedric Diggory properly, as someone who was, by every account, decent and brave and loyal — not as a name that gets overshadowed by whatever comes next.",
+    "You didn't know Cedric Diggory personally. It doesn't make the empty place at the Hufflepuff table any easier to look at on the train home."
+  ],
+  "choices": [
+    { "id": "grieving", "label": "It's the first time a Hogwarts year has ended in genuine grief, for you.", "next": "end-of-year-four" },
+    { "id": "afraid", "label": "Grief and fear, in roughly equal measure.", "next": "end-of-year-four" }
+  ]
+}

@@ -8,6 +8,6 @@
     "\"Mount your brooms,\" Madam Hooch calls, once every broom is finally in hand. \"Kick off from the ground, hard. Hover. Then lean forward, slightly, to come back down.\" You push off, and for a moment the whole grounds — the lake, the Forbidden Forest, the castle's grey towers — spreads out below you before your feet find grass again."
   ],
   "choices": [
-    { "id": "steady-landing", "label": "Bring it down slow and steady, exactly as instructed.", "next": "wider-world-y1" }
+    { "id": "steady-landing", "label": "Bring it down slow and steady, exactly as instructed.", "next": "quidditch-trials-y1" }
   ]
 }

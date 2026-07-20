@@ -1,0 +1,13 @@
+{
+  "id": "responsibility-y7",
+  "title": "More Is Expected of You Now",
+  "hogwartsYear": 7,
+  "prose": [
+    "Seventh-years end up, whether they asked for it or not, somewhere near the top of the school's unofficial pecking order — younger students ask you for directions like you're supposed to know everything, and more than a few professors have started treating classroom discussions as something closer to a conversation between colleagues.",
+    "It's a strange kind of authority, mostly earned just by having survived this long, but there's real weight to it too — a first-year genuinely relieved to have a seventh-year vouch for them, a prefect's badge on someone's chest carrying more consequence than it used to."
+  ],
+  "choices": [
+    { "id": "embrace-it", "label": "Lean into the responsibility.", "next": "reflection-y7-peace" },
+    { "id": "uneasy-about-it", "label": "It sits a little uneasily with you, honestly.", "next": "reflection-y7-peace" }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "astronomy-class-y3",
+  "title": "Astronomy",
+  "hogwartsYear": 3,
+  "prose": [
+    "Astronomy lessons happen at midnight, which sounded thrilling before you actually tried standing on the top of the tallest tower in the castle in the middle of the night in November. Professor Sinistra moves between the telescopes checking star charts, breath fogging in the cold.",
+    "Tonight it's Jupiter's moons, small and precise through the eyepiece, four pinpricks of light that somehow feel more real for how long it took to actually see them properly.",
+    "By the time you're allowed back to bed, the whole castle is asleep except for you and whoever's still awake in the Astronomy Tower, and there's something almost illicit about being up this late for a perfectly legitimate reason."
+  ],
+  "choices": [
+    { "id": "careful-notes", "label": "Take careful, complete notes on everything you observe.", "next": "hogsmeade-visit" },
+    { "id": "just-look", "label": "Spend more time actually looking than writing anything down.", "next": "hogsmeade-visit" }
+  ]
+}

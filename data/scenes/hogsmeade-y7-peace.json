@@ -1,0 +1,13 @@
+{
+  "id": "hogsmeade-y7-peace",
+  "title": "One of the Last Hogsmeade Weekends",
+  "hogwartsYear": 7,
+  "prose": [
+    "It occurs to you partway through the afternoon that this is very possibly the last time you'll wander this particular high street as a Hogwarts student — the same Honeydukes queue, the same Three Broomsticks table you've claimed a dozen times over the years, all of it about to become something you visit rather than something that's simply yours.",
+    "You don't say any of that out loud. It colours the whole afternoon anyway."
+  ],
+  "choices": [
+    { "id": "savour-it", "label": "Take your time and properly savour it.", "next": "wider-world-y7-peace" },
+    { "id": "dont-dwell", "label": "Decide not to get sentimental about a sweet shop.", "next": "wider-world-y7-peace" }
+  ]
+}

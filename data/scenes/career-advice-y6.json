@@ -1,0 +1,13 @@
+{
+  "id": "career-advice-y6",
+  "title": "Career Advice",
+  "hogwartsYear": 6,
+  "prose": [
+    "Every sixth-year gets a one-on-one meeting with their Head of House this term, ostensibly about careers, in practice a fairly blunt conversation about whether your current N.E.W.T. choices actually lead anywhere useful. A pamphlet on Ministry careers sits on the desk between you, mostly ignored.",
+    "\"The point,\" your Head of House says, not unkindly, \"is not to decide the rest of your life this afternoon. The point is to make sure you're not accidentally closing doors you'll want open later.\" It's more genuinely useful advice than you expected, and considerably more terrifying for being useful."
+  ],
+  "choices": [
+    { "id": "clear-direction", "label": "You leave with a clearer idea of where you're headed.", "next": "newt-electives" },
+    { "id": "more-confused", "label": "If anything, you leave more uncertain than you went in.", "next": "newt-electives" }
+  ]
+}

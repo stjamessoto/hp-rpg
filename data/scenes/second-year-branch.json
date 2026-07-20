@@ -1,0 +1,21 @@
+{
+  "id": "second-year-branch",
+  "title": "As the Term Wears On",
+  "hogwartsYear": 2,
+  "prose": [
+    "The term settles into its rhythm — or doesn't, depending on what else is happening at Hogwarts this particular year."
+  ],
+  "choices": [
+    {
+      "id": "continue",
+      "label": "Carry on.",
+      "next": null,
+      "branch": {
+        "on": "calendarYearLookup",
+        "targetHogwartsYear": 2,
+        "cases": { "1992": "chamber-panic-y2" },
+        "fallback": "ordinary-second-year-y2"
+      }
+    }
+  ]
+}

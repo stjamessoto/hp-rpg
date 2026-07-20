@@ -1,0 +1,13 @@
+{
+  "id": "friendship-y3",
+  "title": "The People You'd Choose",
+  "hogwartsYear": 3,
+  "prose": [
+    "Third year has a way of sorting friendships from acquaintances — the people who stuck around through two years of homework, house points, and the ordinary friction of sharing a dormitory turn out, mostly, to be the ones worth keeping.",
+    "It's a quieter kind of milestone than a Quidditch match or an exam, but a real one: less {{name}} the first-year who'd take anyone's company, more {{name}} who actually knows who they'd choose."
+  ],
+  "choices": [
+    { "id": "grateful", "label": "You're grateful for them, and say so.", "next": "third-year-branch" },
+    { "id": "quietly-noted", "label": "You notice it, and leave it unsaid.", "next": "third-year-branch" }
+  ]
+}

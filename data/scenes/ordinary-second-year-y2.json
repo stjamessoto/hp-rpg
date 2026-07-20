@@ -1,0 +1,11 @@
+{
+  "id": "ordinary-second-year-y2",
+  "title": "An Uneventful Stretch",
+  "hogwartsYear": 2,
+  "prose": [
+    "Whatever else is happening in the wider world this year, Hogwarts itself stays exactly as it should be: classes, meals, homework, the occasional exploding cauldron two benches over."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Let the rest of the year pass quietly.", "next": "wider-world-y2" }
+  ]
+}

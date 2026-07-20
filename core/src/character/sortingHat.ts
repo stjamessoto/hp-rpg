@@ -140,10 +140,51 @@ function buildReasoning(house: HouseId, rawScores: Record<HouseId, number>, pref
   return `"Yes... I know exactly what to do with you." — ${houseName.toUpperCase()}!`;
 }
 
+const HOUSE_CHOICES: UiChoice<HouseId>[] = [
+  { id: "gryffindor", label: "Gryffindor" },
+  { id: "hufflepuff", label: "Hufflepuff" },
+  { id: "ravenclaw", label: "Ravenclaw" },
+  { id: "slytherin", label: "Slytherin" },
+];
+
+function buildChosenReasoning(house: HouseId): string {
+  const houseName = house[0].toUpperCase() + house.slice(1);
+  return `The Hat barely settles before it speaks. "Oh — you already know, don't you?" it murmurs. "Well. Who am I to argue." Better be — ${houseName.toUpperCase()}!`;
+}
+
+/**
+ * Two paths: the canon-faithful default (a short quiz decides, with an
+ * optional stated preference the Hat "considers" but can override — see
+ * `sortHat`'s doc comment), or picking the house directly, for players who
+ * just want the house they want. Both are legitimate ways to play; the
+ * quiz path is offered first since it's the one the books actually show.
+ */
 export async function runSortingHatFlow(ui: UiAdapter, rng: RngAdapter): Promise<SortingResult> {
   await ui.print(
     "The Hat drops over your eyes. A small voice speaks, seemingly from inside your own head. \"Hmm. Let's see, then...\""
   );
+
+  const mode = await ui.choose<"quiz" | "choose">(
+    "Before it asks anything else: some students already know exactly where they belong. Others let the Hat work it out.",
+    [
+      { id: "quiz", label: "Let the Hat decide, based on who you are." },
+      { id: "choose", label: "Tell it exactly which house you want." },
+    ]
+  );
+
+  if (mode === "choose") {
+    const house = await ui.choose<HouseId>("Which house?", HOUSE_CHOICES);
+    const scores: Record<HouseId, number> = { gryffindor: 0, hufflepuff: 0, ravenclaw: 0, slytherin: 0 };
+    scores[house] = 1;
+    const result: SortingResult = {
+      house,
+      scores,
+      consideredPreference: true,
+      reasoning: buildChosenReasoning(house),
+    };
+    await ui.print(result.reasoning);
+    return result;
+  }
 
   const answerIds: string[] = [];
   for (const question of SORTING_QUESTIONS) {
@@ -155,12 +196,7 @@ export async function runSortingHatFlow(ui: UiAdapter, rng: RngAdapter): Promise
   const wantsToState = await ui.confirm("Do you want to tell the Hat which house you're hoping for?");
   let preference: HouseId | undefined;
   if (wantsToState) {
-    preference = await ui.choose<HouseId>("Which house?", [
-      { id: "gryffindor", label: "Gryffindor" },
-      { id: "hufflepuff", label: "Hufflepuff" },
-      { id: "ravenclaw", label: "Ravenclaw" },
-      { id: "slytherin", label: "Slytherin" },
-    ]);
+    preference = await ui.choose<HouseId>("Which house?", HOUSE_CHOICES);
   }
 
   const scores = scoreHouses(answerIds);

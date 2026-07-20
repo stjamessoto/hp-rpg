@@ -1,0 +1,13 @@
+{
+  "id": "slughorn-slug-club-y6",
+  "title": "The Slug Club",
+  "hogwartsYear": 6,
+  "prose": [
+    "This year's returning Potions Master, Horace Slughorn, has a well-known habit of collecting students he considers promising — well-connected, talented, or simply interesting — into an informal dining circle everyone's taken to calling the Slug Club. Small gilt-edged invitations turn up at breakfast for the chosen few, requesting the pleasure of their company at dinner.",
+    "Whether or not one of those invitations finds its way to you says less about your talent than about Slughorn's rather transparent fondness for connections and famous names — Harry Potter, predictably, is a fixture."
+  ],
+  "choices": [
+    { "id": "got-invited", "label": "An invitation finds you, and the dinners turn out to be genuinely interesting, name-dropping aside.", "next": "rising-dread-y6" },
+    { "id": "not-invited", "label": "No invitation comes, and you're not entirely sorry to be spared the small talk.", "next": "rising-dread-y6" }
+  ]
+}

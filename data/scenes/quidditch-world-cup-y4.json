@@ -1,0 +1,14 @@
+{
+  "id": "quidditch-world-cup-y4",
+  "title": "The Quidditch World Cup",
+  "hogwartsYear": 4,
+  "prose": [
+    "The summer before fourth year has exactly one topic of conversation: the Quidditch World Cup Final, Ireland against Bulgaria, held on a stretch of Muggle-repelled moorland packed with more wizards and witches than you've ever seen in one place. The match itself is a blur — the Irish Chasers moving almost too fast to follow, and Bulgaria's Viktor Krum catching the Snitch in a dive that wins his side nothing but the crowd's awe anyway, since Ireland's already won on points.",
+    "The celebration afterward doesn't last. Deep in the night, screams start spreading through the campsite — a crowd of masked figures in dark robes, torching tents, and above it all, something vast and green and skull-shaped burning into the night sky. The Dark Mark. You've never seen real panic before that night; you have now, and the memory of that green skull stays considerably longer than the memory of the match.",
+    "Ministry officials swarm the site by dawn, and the story that filters out over the following days is careful and incomplete in the way official stories often are — but everyone who was there agrees on one thing: whoever conjured that Mark wanted it seen, and wanted people to be afraid."
+  ],
+  "choices": [
+    { "id": "still-shaken", "label": "The Mark in the sky is the part that stays with you.", "next": "triwizard-arrival-y4" },
+    { "id": "focus-on-match", "label": "You try to hold onto the memory of the match instead.", "next": "triwizard-arrival-y4" }
+  ]
+}

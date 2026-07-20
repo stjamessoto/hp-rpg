@@ -1,0 +1,14 @@
+{
+  "id": "potions-class-y1",
+  "title": "First Class: Potions",
+  "hogwartsYear": 1,
+  "prose": [
+    "The dungeon classroom is cold enough that your breath nearly shows, rows of pickled things in jars watching from the shelves. {{potions-professor}} takes the register in a voice barely above a murmur, and somehow that's worse than shouting.",
+    "\"You are here to learn the subtle science and exact art of potion-making,\" comes the opening, without looking up. \"There will be no foolish wand-waving in this class.\" A long pause. A long look around the room. \"Some of you, I imagine, will hardly believe this is magic at all.\"",
+    "The lesson itself is a simple boil-cure potion, and yours turns out a passable shade of blue-grey — not perfect, but nothing explodes, which by the look of the desk two rows over counts as a genuine achievement this week."
+  ],
+  "choices": [
+    { "id": "keep-head-down", "label": "Keep your head down and focus on the next ingredient.", "next": "herbology-class-y1" },
+    { "id": "watch-professor", "label": "Spend the lesson quietly watching how the professor works.", "next": "herbology-class-y1" }
+  ]
+}

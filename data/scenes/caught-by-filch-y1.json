@@ -1,0 +1,13 @@
+{
+  "id": "caught-by-filch-y1",
+  "title": "Caught",
+  "hogwartsYear": 1,
+  "prose": [
+    "You make it about four corridors before a lamp swings into view, and Argus Filch emerges from the gloom with Mrs Norris stalking at his heels, both of them looking entirely too pleased about it.",
+    "\"Out of bed — no, out of your common room, past curfew, wandering the corridors,\" he mutters, half to himself, half to the cat, already reaching for the parchment where he logs these things. It's not a detention, not for a first offence, but it is a stern lecture on the importance of rules, delivered at length, in a voice that suggests he's disappointed not to be handing out a punishment.",
+    "You make it back to the common room with nothing worse than a bruised ego and a much clearer idea of exactly how many corridors Filch can cover in one evening."
+  ],
+  "choices": [
+    { "id": "learn-lesson", "label": "Resolve to be more careful about being seen, next time.", "next": "first-friendship-y1" }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "detention-or-library-y1",
+  "title": "A Free Evening",
+  "hogwartsYear": 1,
+  "prose": [
+    "With homework piling up and the novelty of the castle still nowhere near worn off, a free evening presents a real choice: get ahead of the work, or go looking for trouble."
+  ],
+  "choices": [
+    {
+      "id": "library",
+      "label": "The library — get a head start on next week's essay.",
+      "next": "first-friendship-y1"
+    },
+    {
+      "id": "explore",
+      "label": "Explore a corridor you haven't been down yet.",
+      "next": "caught-by-filch-y1"
+    }
+  ]
+}

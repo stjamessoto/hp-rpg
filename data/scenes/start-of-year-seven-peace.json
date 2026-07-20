@@ -7,6 +7,6 @@
     "N.E.W.T.s loom at the far end of the year, distant enough not to worry about yet. For now there's just the ordinary, precious business of one last year in the place that's shaped most of who you've become."
   ],
   "choices": [
-    { "id": "continue", "label": "Settle in for your final year.", "next": "wider-world-y7-peace" }
+    { "id": "continue", "label": "Settle in for your final year.", "next": "responsibility-y7" }
   ]
 }

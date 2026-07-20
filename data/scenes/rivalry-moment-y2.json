@@ -1,0 +1,14 @@
+{
+  "id": "rivalry-moment-y2",
+  "title": "House Rivalry",
+  "hogwartsYear": 2,
+  "prose": [
+    "It doesn't take a Quidditch match to bring the house rivalries out — a snide comment in the corridor does it just as well, the kind of remark that's technically about nothing and actually about everything: which house you're in, whose family has more Galleons, whose common room is nicer.",
+    "You could let it go. Plenty of people do, most days. But there's a particular tone some students take with certain houses that gets old fast, and today it lands on you specifically, in front of enough people that walking away and saying something both feel like real options."
+  ],
+  "choices": [
+    { "id": "walk-away", "label": "Not worth it. Walk away.", "next": "christmas-y2" },
+    { "id": "sharp-reply", "label": "Give as good as you got.", "next": "christmas-y2" },
+    { "id": "diffuse-with-humour", "label": "Defuse it with a joke instead.", "next": "christmas-y2" }
+  ]
+}

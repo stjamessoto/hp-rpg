@@ -1,0 +1,14 @@
+{
+  "id": "petrification-fear-y2",
+  "title": "More Attacks",
+  "hogwartsYear": 2,
+  "prose": [
+    "Mrs Norris turns out not to be the last of it. Colin Creevey, a first-year who never went anywhere without his camera, is found petrified near the same corridor a few weeks later. Then Justin Finch-Fletchley, a Hufflepuff — and Nearly Headless Nick alongside him, which nobody thought possible, since he was already a ghost.",
+    "By the time a second wave of attacks hits, the whole school has changed shape around the fear: no one walks anywhere alone if they can help it, Filch patrols the corridors at all hours looking more haunted than usual, and there's a running, half-serious head-count every morning of who's still walking around unpetrified.",
+    "Some of the Muggle-born students you know start talking, quietly, about whether their parents might pull them out early. Nobody says it directly, but the shape of the fear is obvious enough: whatever's doing this seems to be choosing its targets."
+  ],
+  "choices": [
+    { "id": "support-friends", "label": "Do what you can to look out for the students most worried.", "next": "chamber-resolved-y2" },
+    { "id": "keep-your-head-down", "label": "Keep to yourself and wait for it to pass.", "next": "chamber-resolved-y2" }
+  ]
+}

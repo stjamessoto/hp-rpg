@@ -1,0 +1,11 @@
+{
+  "id": "ordinary-third-year-y3",
+  "title": "A Steadier Year",
+  "hogwartsYear": 3,
+  "prose": [
+    "Third year settles into itself without any great drama attached to your own corner of the castle — heavier coursework, the new electives finding their rhythm, the ordinary churn of a school year doing what school years do."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Let it carry you toward the wider world's own news.", "next": "wider-world-y3" }
+  ]
+}

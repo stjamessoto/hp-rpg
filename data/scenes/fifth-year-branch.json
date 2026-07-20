@@ -1,0 +1,21 @@
+{
+  "id": "fifth-year-branch",
+  "title": "This Particular O.W.L. Year",
+  "hogwartsYear": 5,
+  "prose": [
+    "Every O.W.L. year is stressful in the ordinary way. Some are stressful in other ways entirely."
+  ],
+  "choices": [
+    {
+      "id": "continue",
+      "label": "Find out which kind this one is.",
+      "next": null,
+      "branch": {
+        "on": "calendarYearLookup",
+        "targetHogwartsYear": 5,
+        "cases": { "1995": "umbridge-arrival-y5" },
+        "fallback": "ordinary-fifth-year-y5"
+      }
+    }
+  ]
+}

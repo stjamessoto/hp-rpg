@@ -8,6 +8,6 @@
     "It is, everyone understands without saying so, an especially dangerous year to be Muggle-born — most of the families who could keep their children home this year did."
   ],
   "choices": [
-    { "id": "continue", "label": "Keep your head down and get through the first week.", "next": "wider-world-y7-war" }
+    { "id": "continue", "label": "Keep your head down and get through the first week.", "next": "carrows-classroom-y7" }
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "id": "quidditch-captain-y6",
+  "title": "A Senior Player Now",
+  "hogwartsYear": 6,
+  "prose": [
+    "Years of trials and reserve matches and early-morning practices have added up to something, by sixth year — you're one of the senior players now, the one newer team members look to for how a warm-up is supposed to go, whether or not the captaincy itself ever came your way.",
+    "It's a strange thing, being the person you once watched from the stands. Mostly, it's a good one."
+  ],
+  "choices": [
+    { "id": "made-captain", "label": "The captaincy is yours this year.", "next": "ancient-runes-class-y6" },
+    { "id": "senior-player", "label": "Not captain — but a senior player all the same.", "next": "ancient-runes-class-y6" }
+  ]
+}

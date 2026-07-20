@@ -1,0 +1,13 @@
+{
+  "id": "rivalry-or-friendship-y4",
+  "title": "Old Grudges, New Year",
+  "hogwartsYear": 4,
+  "prose": [
+    "Four years in, the lines between houses have long since hardened into habit — the same corridor sneers, the same reflexive needling in Potions, the same students who've decided exactly what they think of {{house}} and aren't much interested in revising the opinion.",
+    "But four years is also long enough to have seen past a few of those lines, here and there, when it mattered. Not every rivalry stays a rivalry forever."
+  ],
+  "choices": [
+    { "id": "keep-the-rivalry", "label": "Some grudges you're not ready to let go of.", "next": "house-elf-welfare-y4" },
+    { "id": "extend-a-hand", "label": "You've grown past at least one of them.", "next": "house-elf-welfare-y4" }
+  ]
+}

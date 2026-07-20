@@ -1,0 +1,13 @@
+{
+  "id": "quiet-moment-y7-war",
+  "title": "A Moment That Isn't Afraid",
+  "hogwartsYear": 7,
+  "prose": [
+    "Even a Hogwarts run by the Carrows has odd, unguarded pockets of time in it — a corridor nobody's patrolling for ten minutes, a friend willing to trade jokes in a whisper, a shaft of ordinary afternoon light through a window that hasn't yet been ruined by anything.",
+    "It doesn't undo the rest of the year. It's not supposed to. It's just proof that the rest of the year hasn't managed to take everything yet."
+  ],
+  "choices": [
+    { "id": "hold-onto-it", "label": "You hold onto it for as long as it lasts.", "next": "wider-world-y7-war" },
+    { "id": "cant-fully-relax", "label": "You can't quite let yourself relax, even here.", "next": "wider-world-y7-war" }
+  ]
+}

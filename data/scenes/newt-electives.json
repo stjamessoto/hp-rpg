@@ -7,6 +7,6 @@
     "{{dada-professor}} sets an essay on advanced counter-jinxes that takes you the better part of a weekend, and for the first time it occurs to you that this is genuinely useful, not just something to pass."
   ],
   "choices": [
-    { "id": "continue", "label": "Hand it in a full day early, for once.", "next": "wider-world-y6" }
+    { "id": "continue", "label": "Hand it in a full day early, for once.", "next": "hogsmeade-y6" }
   ]
 }

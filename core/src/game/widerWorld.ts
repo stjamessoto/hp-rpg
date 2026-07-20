@@ -40,11 +40,17 @@ export function buildWiderWorldParagraph(schoolYear: number, data: CanonDataBund
   return `Word reaches even first-years eventually. This year: ${sentences.join(" ")}`;
 }
 
-/** The Defence Against the Dark Arts professor for a given school year, per the famously rotating post — or a graceful generic fallback. */
-export function getDadaProfessor(schoolYear: number, data: CanonDataBundle): string {
-  const subject = data.subjects.find((s) => s.id === "defence-against-the-dark-arts");
+/** The professor teaching a given subject in a given school year, from subjects.json's professorsByEra — or a graceful generic fallback. */
+export function getSubjectProfessor(subjectId: string, schoolYear: number, data: CanonDataBundle): string {
+  const subject = data.subjects.find((s) => s.id === subjectId);
   const tenure = subject?.professorsByEra.find(
     (p) => (p.eraStart ?? -Infinity) <= schoolYear && schoolYear <= (p.eraEnd ?? Infinity)
   );
-  return tenure ? tenure.name : "this year's Defence Against the Dark Arts teacher";
+  if (tenure) return tenure.name;
+  return subject ? `this year's ${subject.name} teacher` : "this year's teacher";
+}
+
+/** The Defence Against the Dark Arts professor for a given school year, per the famously rotating post — or a graceful generic fallback. */
+export function getDadaProfessor(schoolYear: number, data: CanonDataBundle): string {
+  return getSubjectProfessor("defence-against-the-dark-arts", schoolYear, data);
 }

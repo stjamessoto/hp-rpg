@@ -1,0 +1,13 @@
+{
+  "id": "prefect-duties-y5",
+  "title": "Badges and Patrols",
+  "hogwartsYear": 5,
+  "prose": [
+    "Fifth year brings prefect badges for a handful of students in every house — a Head of House's letter over the summer, a small silver P pinned to a chest, and, for whoever's wearing one, the sudden, unglamorous responsibility of patrolling corridors after hours and refereeing first-year squabbles.",
+    "Whether or not the badge ever came your way, you feel the shift in the year around you regardless — a house suddenly a little more organised, a little more watched, for better or worse."
+  ],
+  "choices": [
+    { "id": "made-prefect", "label": "The badge is yours, for what it's worth.", "next": "friendship-y5" },
+    { "id": "not-made-prefect", "label": "It wasn't you this year — and that's fine.", "next": "friendship-y5" }
+  ]
+}

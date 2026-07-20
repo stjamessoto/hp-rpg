@@ -1,0 +1,13 @@
+{
+  "id": "triwizard-tasks-y4",
+  "title": "The Three Tasks",
+  "hogwartsYear": 4,
+  "prose": [
+    "The First Task turns out to involve actual dragons — four of them, one per champion, guarding a golden egg, and the whole stadium goes silent and then roars at once when Harry Potter's Hungarian Horntail nearly catches him against the stands before he out-flies it entirely.",
+    "The Second Task moves everyone down to the Black Lake in February cold, champions diving in after something the Merpeople are holding hostage below the surface — you catch a glimpse of Cedric Diggory surfacing with Cho Chang, and Harry surfacing last but earning extra points for staying behind to help another champion first.",
+    "The Third Task is a maze, grown tall enough on the Quidditch pitch to swallow every champion from view entirely, spectators left simply watching a hedge wall and waiting. When Cedric Diggory and Harry Potter emerge together, gripping the Triwizard Cup at the same moment in a dead tie neither seems to have expected — the stadium's cheer is the loudest sound you've ever been part of."
+  ],
+  "choices": [
+    { "id": "thrilling", "label": "Whatever else this year turns out to hold, the Tournament itself was thrilling.", "next": "graveyard-aftermath-y4" }
+  ]
+}

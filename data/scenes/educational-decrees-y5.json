@@ -1,0 +1,14 @@
+{
+  "id": "educational-decrees-y5",
+  "title": "Decree After Decree",
+  "hogwartsYear": 5,
+  "prose": [
+    "By midwinter the noticeboard is a wall of numbered decrees, each pettier than the last: no gatherings of three or more students without prior written approval, no Quidditch team allowed to reform without her sign-off, entire subjects of conversation quietly discouraged just by who's now allowed to overhear them.",
+    "Detentions under the new High Inquisitor have a particular reputation, whispered about rather than confirmed outright — something involving a quill that doesn't need ink, and doesn't need explaining twice to anyone who's had one. You do your best not to find out firsthand.",
+    "Professor McGonagall's jaw visibly tightens every time Umbridge's name comes up in the staff room doorway, which is as close to an open protest as any professor seems willing to risk."
+  ],
+  "choices": [
+    { "id": "avoid-attention", "label": "Do everything you can to avoid her attention entirely.", "next": "dumbledores-army-y5" },
+    { "id": "quiet-resistance", "label": "Start looking for small, quiet ways to push back.", "next": "dumbledores-army-y5" }
+  ]
+}

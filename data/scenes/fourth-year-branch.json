@@ -1,0 +1,21 @@
+{
+  "id": "fourth-year-branch",
+  "title": "Looking Back on the Year",
+  "hogwartsYear": 4,
+  "prose": [
+    "Some years are just years. Others turn out to be the kind people talk about for a long time afterward."
+  ],
+  "choices": [
+    {
+      "id": "continue",
+      "label": "See which kind this one is.",
+      "next": null,
+      "branch": {
+        "on": "calendarYearLookup",
+        "targetHogwartsYear": 4,
+        "cases": { "1994": "quidditch-world-cup-y4" },
+        "fallback": "ordinary-fourth-year-y4"
+      }
+    }
+  ]
+}

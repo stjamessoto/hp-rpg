@@ -1,0 +1,11 @@
+{
+  "id": "ordinary-fourth-year-y4",
+  "title": "A Year Like Any Other",
+  "hogwartsYear": 4,
+  "prose": [
+    "Whatever else is stirring elsewhere in the wizarding world this particular year, it stays exactly that — elsewhere. Your own fourth year passes in the ordinary currency of school life: essays, meals, the slow creep toward exams."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Catch up on what news does reach the castle.", "next": "wider-world-y4" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "ordinary-fifth-year-y5",
+  "title": "Just O.W.L.s, This Time",
+  "hogwartsYear": 5,
+  "prose": [
+    "Stressful as O.W.L. year is on its own terms, at least it's stressful in the way every fifth-year before you has understood — no Ministry interference, no upheaval, just exams looming steadily closer."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Focus on the exams themselves.", "next": "wider-world-y5" }
+  ]
+}

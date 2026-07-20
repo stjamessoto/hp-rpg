@@ -1,0 +1,13 @@
+{
+  "id": "hogsmeade-y4",
+  "title": "Back to Hogsmeade",
+  "hogwartsYear": 4,
+  "prose": [
+    "A weekend in Hogsmeade has stopped being a novelty and started being a genuine ritual — you know exactly which table at the Three Broomsticks has the least wobble, exactly how long the Honeydukes queue actually takes at a given hour.",
+    "This time you wander further than usual, past the edge of the village to where the Shrieking Shack sits behind its crooked fence, reputedly the most haunted building in Britain. It does, from a distance, look the part."
+  ],
+  "choices": [
+    { "id": "dare-closer", "label": "Get closer to the fence than is strictly sensible.", "next": "rivalry-or-friendship-y4" },
+    { "id": "keep-distance", "label": "Admire the reputation from a safe distance.", "next": "rivalry-or-friendship-y4" }
+  ]
+}

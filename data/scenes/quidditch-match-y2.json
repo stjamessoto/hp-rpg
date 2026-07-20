@@ -1,0 +1,13 @@
+{
+  "id": "quidditch-match-y2",
+  "title": "Watching From the Stands",
+  "hogwartsYear": 2,
+  "prose": [
+    "Missing out on a team spot doesn't mean missing out on Quidditch — if anything, the first big match of the season from the stands is its own kind of thrilling, all scarves and rattling noise-makers and the whole crowd lurching sideways as one when a Bludger goes wide.",
+    "You lose your voice somewhere in the second half, cheering for a team you didn't make. It doesn't feel like much of a loss."
+  ],
+  "choices": [
+    { "id": "loved-it", "label": "Even from the stands, it's brilliant.", "next": "rivalry-moment-y2" },
+    { "id": "itch-to-play", "label": "Watching only sharpens the itch to actually play.", "next": "rivalry-moment-y2" }
+  ]
+}

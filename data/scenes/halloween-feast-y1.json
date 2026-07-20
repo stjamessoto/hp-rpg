@@ -1,0 +1,14 @@
+{
+  "id": "halloween-feast-y1",
+  "title": "Halloween",
+  "hogwartsYear": 1,
+  "prose": [
+    "Live bats stream through the Great Hall all evening, swooping low over the candles, and a thousand carved pumpkins grin down from every ledge, each one easily big enough to sit in. Dumbledore's start-of-feast announcement is, as ever, mostly nonsense words that somehow make everyone laugh anyway.",
+    "The food, if anything, outdoes the start-of-term feast — roast pumpkin everything, treacle tart again, a cauldron of what turns out to be actual, drinkable, bubbling black-currant juice going round on request.",
+    "It's the first night since you arrived that the castle feels less like somewhere you're visiting and more like somewhere you live."
+  ],
+  "choices": [
+    { "id": "stay-late", "label": "Stay until the very last candle gutters out.", "next": "detention-or-library-y1" },
+    { "id": "early-night", "label": "Head up early — tomorrow's classes won't wait.", "next": "detention-or-library-y1" }
+  ]
+}

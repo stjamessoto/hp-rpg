@@ -22,9 +22,9 @@ below.
     /character             Character-creation flow: identity, blood status, backstory,
                            appearance, Sorting Hat, Ollivander's, attributes, save/load
     /canon                Canon validator (age, house-lock, spell-era, NPC-presence checks)
-    /game                 Scene engine + data-driven gameplay loop + narratorPrompt.ts (LLM prompt assembly, network-free)
+    /game                 Scene engine, gameSave.ts (save/resume), narratorPrompt.ts (LLM prompt assembly, network-free)
     index.ts              Public barrel export
-  /tests                 Vitest unit tests (validator, Sorting Hat, full character-creation flow, narrator enrichment)
+  /tests                 Vitest unit tests (validator, Sorting Hat, character creation, narrator enrichment, save/resume)
   tsconfig.json
 
 /web                      Browser reference UI. Thin: DOM adapters + a scrolling log/controls shell.
@@ -155,8 +155,43 @@ backstory → appearance → Sorting Hat → Ollivander's wand → attributes �
 and is exercised end-to-end in `core/tests/createCharacter.test.ts` via a
 scripted `ScriptedUiAdapter` and a seeded RNG (proving both the flow and
 its reproducibility). The result is a storage-agnostic JSON `Character`
-(`schemaVersion: 1`) saved through `StorageAdapter` — `localStorage` today
-via `web/src/adapters/LocalStorageAdapter.ts`, device storage later.
+(`schemaVersion: 1`) saved through `StorageAdapter` — `localStorage` on
+web, device storage on mobile.
+
+**Choosing your house.** `core/src/character/sortingHat.ts` offers two
+paths, asked as the very first sorting question: let the Hat decide (the
+canon-faithful default — a short quiz, then the Hat can additionally
+"consider" a stated preference the way it does Harry's "not Slytherin,"
+without guaranteeing it), or tell it directly which of the four houses you
+want. Picking a house directly is honest about what it is — a deliberate
+player-agency option layered on top of the books' actual mechanism, not a
+claim that the Hat works this way in canon.
+
+## Save files
+
+Two things get saved independently, both through `StorageAdapter` (so the
+same code works against `localStorage` or device storage):
+
+- **The character** (`core/src/character/save.ts`) — identity, house,
+  wand, backstory, everything from character creation. Multiple characters
+  can exist at once; `listCharacterIds` enumerates them.
+- **Game progress** (`core/src/game/gameSave.ts`) — which of the 104 scene
+  checkpoints a given character is currently on. `runGameLoop` saves this
+  automatically after every scene transition when a `StorageAdapter` is
+  passed in via its `options.storage`, and clears it the moment a
+  playthrough reaches a natural end (so a finished story doesn't show up
+  asking to be "continued").
+
+Both `web/src/main.ts` and `mobile/App.tsx` check for existing saves on
+launch: if any exist, you get a menu — "Continue as `<name>` (`<house>`,
+Year `<N>`)" for each in-progress character, "`<name>` — story complete"
+for a finished one, plus "Start a new character." Continuing resumes by
+replaying the exact scene you were last looking at (not fast-forwarding
+past it), so you're never left guessing whether your last choice actually
+registered. Verified for real in both a browser and Expo's web target:
+create a character, play a few scenes, reload the page (simulating
+closing and reopening the app) — the continue menu appears with the right
+house and year, and picking it resumes exactly where you left off.
 
 ## Style bible
 
@@ -172,12 +207,44 @@ the same standard.
 ## Gameplay loop: all seven years
 
 `core/src/game/sceneEngine.ts` renders `Scene` records
-(`/data/scenes/*.json`, 35 of them) and resolves player choices;
+(`/data/scenes/*.json`, 104 of them) and resolves player choices;
 `scenesLoader.ts` assembles them into one continuous chain spanning the
-character's entire time at Hogwarts, year 1 through year 7. Each `Scene`
-declares its own `hogwartsYear` (1-7); the engine derives the real calendar
-year from `character.identity.hogwartsStartYear + (hogwartsYear - 1)`, so
-the same scene content adapts to *when* a given character was at school.
+character's entire time at Hogwarts — starting in **Diagon Alley** (school
+shopping, Gringotts, Madam Malkin's) and the **Hogwarts Express** (the
+trolley witch, the countryside rolling past) before year 1 proper begins,
+through year 7. Each `Scene` declares its own `hogwartsYear` (1-7); the
+engine derives the real calendar year from
+`character.identity.hogwartsStartYear + (hogwartsYear - 1)`, so the same
+scene content adapts to *when* a given character was at school.
+
+104 scenes is roughly 3x the game's original 35-scene backbone, added
+specifically to give every year real breadth rather than just a single
+"canon event, then move on" thread. Alongside the set-piece arcs below,
+every year now has its own Quidditch progression (tryouts, reserve
+matches, a captaincy by year 6), more class and elective variety
+(Astronomy, History of Magic, Ancient Runes, N.E.W.T. electives), and
+holiday/downtime beats (Christmas at the castle, Hogsmeade trips,
+prefect duties, house-elf welfare, friendships tested and kept) that
+exist independent of *which* calendar year a character's cohort landed
+in.
+
+**Every decision point also accepts free text.** Alongside a scene's
+written choices, `runScene` always adds a "Something else — type your own
+action" option; picking it asks what your character does, in your own
+words, and narrates a result (via the optional Gemini narrator if
+configured, or a plain "You `<what you typed>`." acknowledgement if not).
+The 104 checkpoint scenes stay fixed regardless — think of them as a
+guideline of *where the story is* (which year, which canonical events are
+happening around you) rather than a strict script of *what you do at each
+one*. This works because, structurally, a scene's written choices already
+all funnel to the same next checkpoint (the only real forks are the two
+automatic `branch`es below, which depend on the character, not on which
+option was clicked) — so resolving a typed action through the scene's
+first choice is always safe, including at the one scene that *is* a
+branch. See `core/src/game/narratorPrompt.ts`'s `buildFreeActionContext`
+for how the prompt explicitly tells the model to treat the player's text
+as an in-fiction action to narrate, never as an instruction to itself,
+even if it's phrased like one.
 
 A few things make a 7-year, canon-faithful loop tractable without writing
 per-start-year variants of everything:
@@ -200,16 +267,38 @@ per-start-year variants of everything:
   `subjects.json`'s `professorsByEra`, so class-flavor scenes always name
   the right professor for the famously-cursed Defence Against the Dark
   Arts post in whatever year the character is actually in.
-- **One real content fork.** Every playable start year's own year 7 lands
-  on a different calendar year (1997 through 2003), and exactly one of
-  those — 1997 — is Deathly Hallows' school year: Hogwarts under Snape's
-  headmastership and the Carrows, danger for Muggle-born students, ending
-  at the Battle of Hogwarts. Every other calendar year is an ordinary,
-  peaceful N.E.W.T. year ending in graduation. `end-of-year-six.json`
-  encodes this as a `branch` on its single choice
-  (`targetHogwartsYear: 7, calendarYearAtLeast: 1998`) rather than two
-  copies of six years of content — `sceneEngine.ts`'s `resolveBranch`
-  evaluates it once, at that one decision point.
+- **The year-7 war/peace fork.** Every playable start year's own year 7
+  lands on a different calendar year (1997 through 2003), and exactly one
+  of those — 1997 — is Deathly Hallows' school year: Hogwarts under
+  Snape's headmastership and the Carrows, danger for Muggle-born students,
+  ending at the Battle of Hogwarts. Every other calendar year is an
+  ordinary, peaceful N.E.W.T. year ending in graduation.
+  `end-of-year-six.json` encodes this as a `branch` on its single choice
+  (`on: "calendarYear"`, `targetHogwartsYear: 7, calendarYearAtLeast:
+  1998`) rather than two copies of six years of content —
+  `sceneEngine.ts`'s `resolveBranch` evaluates it once, at that one
+  decision point.
+- **Calendar-gated set-piece arcs, attached at one "canonical" slot.**
+  Five years (2, 3, 4, 5, 6) each carry a detailed, multi-scene arc for a
+  specific real-book event — the Chamber of Secrets (1992), Sirius Black
+  and the Dementors (1993), the Triwizard Tournament (1994), Umbridge and
+  Dumbledore's Army (1995), Slughorn and Dumbledore's death (1996). Writing
+  a full version of each arc for every possible calendar year a character
+  might land in that `hogwartsYear` would mean dozens of near-duplicate
+  scene chains. Instead, a new branch kind — `on: "calendarYearLookup"`
+  (`{ targetHogwartsYear, cases: { [calendarYear]: sceneId }, fallback:
+  sceneId }`) — routes a character into the detailed arc only when their
+  *own* calendar year at that `hogwartsYear` matches, and into a shorter
+  "ordinary year" scene (`ordinary-second-year-y2.json`, etc.) plus the
+  `{{wider-world}}` digest otherwise. The detailed arcs are deliberately
+  scoped to the single calendar year that would make a character's cohort
+  match Harry's own — i.e. a character who started Hogwarts in 1991. A
+  character starting in a different year still gets correct coverage of
+  the same real event (via `{{wider-world}}`, if it falls somewhere in
+  their seven years at all) — just without a dedicated multi-scene arc
+  built around it. This keeps the content investment concentrated on the
+  one cohort every canon reader actually recognizes, rather than thinning
+  it across every mathematically possible start year.
 
 The player character is always an original student, never a
 stand-in for Harry: they live their own school life (classes, an elective
@@ -242,11 +331,17 @@ that a pure-blood or half-blood character never sees. Both are covered by
 
 ## Optional: LLM-backed scene enrichment
 
-Every scene can carry one extra, personalized beat — a short paragraph
-reacting specifically to *this* character's backstory, blood status,
-appearance, or wand, on top of (never instead of) the hand-written prose.
-This is entirely optional and off by default; the game is fully playable,
-and was built and tested, with it disabled.
+Two touchpoints, both entirely optional and off by default — the game is
+fully playable, and was built and tested, with the narrator disabled:
+
+1. **A personalized beat on every scene** — a short paragraph reacting
+   specifically to *this* character's backstory, blood status, appearance,
+   or wand, on top of (never instead of) the hand-written prose. Fires
+   unconditionally once per scene.
+2. **Narrating typed custom actions** — see "every decision point also
+   accepts free text" above. When a narrator is configured, picking
+   "type your own action" gets a real in-voice response to what you
+   typed; without one, a plain acknowledgement.
 
 - **`core/src/adapters/NarratorAdapter.ts`** defines the interface, kept to
   the exact same injectable-adapter pattern as `StorageAdapter`/
@@ -254,13 +349,18 @@ and was built and tested, with it disabled.
   network call itself. `NullNarratorAdapter` (the default `runGameLoop`
   falls back to when no narrator is passed) always returns `null` — zero
   cost, zero behavior change.
-- **`core/src/game/narratorPrompt.ts`** builds the prompt, pure and
-  network-free: `buildNarratorContext` fills in canon/style-bible.md §6's
-  injection block with the current story year/house, and assembles a
-  `groundingFacts` object from *only* this character's own state (backstory
-  tags, blood status, appearance, wand) — grounding is deliberately narrow
-  so the model has little room to invent beyond the specific character
-  detail it's meant to react to.
+- **`core/src/game/narratorPrompt.ts`** builds both prompts, pure and
+  network-free. `buildNarratorContext` (the personal beat) fills in
+  canon/style-bible.md §6's injection block with the current story
+  year/house, and assembles a `groundingFacts` object from *only* this
+  character's own state (backstory, blood status, appearance, wand) —
+  grounding is deliberately narrow so the model has little room to invent
+  beyond the specific character detail it's meant to react to.
+  `buildFreeActionContext` (the typed-action narration) shares the same
+  system prompt but quotes the player's raw text back with explicit
+  instructions to treat it strictly as an in-fiction action to narrate,
+  never as a command to the model — a lightweight defense against prompt
+  injection via what the player types.
 - **`web/src/adapters/GeminiNarratorAdapter.ts`** and
   **`mobile/src/adapters/GeminiNarratorAdapter.ts`** are the two pieces
   that actually talk to a network — byte-for-byte identical files, since

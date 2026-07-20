@@ -1,0 +1,14 @@
+{
+  "id": "quidditch-y3",
+  "title": "Making the Team",
+  "hogwartsYear": 3,
+  "prose": [
+    "Third time trying out, and this time the captain actually calls your name off the list — not a starting spot, but a reserve place, which is more than you managed either of the last two years and feels, honestly, enormous.",
+    "Practice is twice a week, freezing evenings spent running drills until your arms ache, and you spend most matches on the sidelines rather than the pitch — but there's a real difference between watching a match as a spectator and watching it as part of the team, even from the bench.",
+    "The one time you're called on to fill in for an injured player, your hands shake so badly on the broom handle you nearly miss the whistle. Nobody in the stands seems to notice. You notice."
+  ],
+  "choices": [
+    { "id": "proud-of-it", "label": "However small the role, you earned it.", "next": "quidditch-big-match-y3" },
+    { "id": "wants-more", "label": "It's a start — but you want more next year.", "next": "quidditch-big-match-y3" }
+  ]
+}

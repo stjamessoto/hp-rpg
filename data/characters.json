@@ -482,7 +482,7 @@
   {
     "id": "bellatrix-lestrange",
     "name": "Bellatrix Lestrange",
-    "birthYear": 2000,
+    "birthYear": null,
     "deathYear": 1998,
     "house": "slytherin",
     "bloodStatus": "pure-blood",
@@ -599,7 +599,7 @@
   {
     "id": "filius-flitwick",
     "name": "Filius Flitwick",
-    "birthYear": 1975,
+    "birthYear": null,
     "deathYear": null,
     "house": "ravenclaw",
     "bloodStatus": null,
@@ -621,7 +621,7 @@
   {
     "id": "pomona-sprout",
     "name": "Pomona Sprout",
-    "birthYear": 1892,
+    "birthYear": null,
     "deathYear": null,
     "house": "hufflepuff",
     "bloodStatus": null,
@@ -643,7 +643,7 @@
   {
     "id": "lucius-malfoy",
     "name": "Lucius Malfoy",
-    "birthYear": 1953,
+    "birthYear": null,
     "deathYear": null,
     "house": "slytherin",
     "bloodStatus": "pure-blood",

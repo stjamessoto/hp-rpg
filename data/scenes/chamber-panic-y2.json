@@ -1,0 +1,14 @@
+{
+  "id": "chamber-panic-y2",
+  "title": "Something in the Walls",
+  "hogwartsYear": 2,
+  "prose": [
+    "It starts as a rumour, the way these things always do, and then it isn't a rumour anymore: Filch's cat, Mrs Norris, found hanging petrified from a torch bracket, water pooling strangely on the floor beneath her, and words daubed on the wall above in what everyone insists is blood. THE CHAMBER OF SECRETS HAS BEEN OPENED. ENEMIES OF THE HEIR, BEWARE.",
+    "Nobody in the school seems entirely sure what the Chamber of Secrets even is, which doesn't stop everyone from having a theory. What's not in dispute is the mood afterward — professors walking students to and from class in tight little clusters, the corridors emptier and quieter than you've ever known them.",
+    "Being Muggle-born, in particular, has stopped feeling like an incidental fact about people and started feeling, to some students, like a target."
+  ],
+  "choices": [
+    { "id": "stay-alert", "label": "Take the warnings seriously and stay close to your friends.", "next": "duelling-club-y2" },
+    { "id": "skeptical", "label": "Assume it's an overblown prank until proven otherwise.", "next": "duelling-club-y2" }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "dumbledores-army-y5",
+  "title": "Dumbledore's Army",
+  "hogwartsYear": 5,
+  "prose": [
+    "Umbridge's Defence lessons are, depending who you ask, either reassuringly theoretical or completely useless, and a quiet consensus builds that the syllabus alone won't be enough if anyone actually needs to defend themselves one day soon. It starts small: a meeting in a pub in Hogsmeade, word passed carefully between people who trust each other, Harry Potter — of all people — apparently willing to teach what the curriculum won't.",
+    "By the time it's properly underway, it has a name — Dumbledore's Army — and a room that only exists when you need it, tucked away on the seventh floor. You're one of two or three dozen students who keep coming back, week after week, learning to cast a real Stunning Spell, a real Patronus, under strictly unofficial supervision.",
+    "It has to end eventually — these things always do, once enough people know a secret — but by the time it's discovered, most of you can genuinely defend yourselves, which was rather the point."
+  ],
+  "choices": [
+    { "id": "proud-to-have-joined", "label": "Whatever the risk, you're glad you joined.", "next": "ministry-battle-aftermath-y5" }
+  ]
+}

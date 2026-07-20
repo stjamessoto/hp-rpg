@@ -1,0 +1,14 @@
+{
+  "id": "quidditch-tryout-y2",
+  "title": "Trying Out",
+  "hogwartsYear": 2,
+  "prose": [
+    "Second-years can, technically, try out for the house team — it's just that they essentially never make it, not with sixth- and seventh-years also competing for the same handful of spots. You go anyway, brooms borrowed from the school supply, a knot of nerves in your stomach as the captain runs everyone through drills on the pitch.",
+    "You do well enough — a decent catch, a clean loop, nothing disastrous — but the two spots open this year go to older, more experienced players, and the list posted the next morning doesn't have your name on it.",
+    "It stings for about a day. Then it mostly just becomes a reason to fly for fun instead, with nobody's expectations riding on it."
+  ],
+  "choices": [
+    { "id": "keep-trying", "label": "Decide you'll try again next year.", "next": "quidditch-match-y2" },
+    { "id": "fly-for-fun", "label": "Decide flying for its own sake is enough.", "next": "quidditch-match-y2" }
+  ]
+}

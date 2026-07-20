@@ -1,0 +1,11 @@
+{
+  "id": "ordinary-sixth-year-y6",
+  "title": "N.E.W.T.s and Not Much Else",
+  "hogwartsYear": 6,
+  "prose": [
+    "Whatever unease opened the year fades into the ordinary background hum of N.E.W.T. work, and sixth year turns out to be, in the end, mostly about the work itself."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Catch up on whatever news the wider world has for you.", "next": "wider-world-y6" }
+  ]
+}

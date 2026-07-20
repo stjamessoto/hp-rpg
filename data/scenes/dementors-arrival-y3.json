@@ -1,0 +1,14 @@
+{
+  "id": "dementors-arrival-y3",
+  "title": "Dementors on the Train",
+  "hogwartsYear": 3,
+  "prose": [
+    "The train jolts to a stop somewhere in the middle of nowhere, lights flickering, frost spreading across the windows in patterns that have nothing to do with the weather outside. Something moves past the compartment door — tall, cloaked, rotted-looking hands — and the temperature seems to drop out of the world entirely.",
+    "It only lasts a few seconds before it moves on, but the feeling doesn't leave so quickly: a hollowed-out, joyless cold that takes real effort to shake off, like every good memory you own has been temporarily misplaced. Word travels up and down the train afterward — Dementors, searching for someone. Sirius Black, the first person ever to escape Azkaban unaided, and apparently headed this way.",
+    "Hogwarts itself is different that year for it: Dementors posted at every entrance to the grounds, patrolling the Quidditch pitch, close enough that more than a few students report the same cold, hopeless feeling just from walking past them on the way to class."
+  ],
+  "choices": [
+    { "id": "shaken", "label": "It leaves you rattled for days afterward.", "next": "shrieking-shack-truth-y3" },
+    { "id": "curious", "label": "Unsettling as it was, you're more curious than afraid.", "next": "shrieking-shack-truth-y3" }
+  ]
+}

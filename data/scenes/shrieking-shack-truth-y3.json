@@ -1,0 +1,14 @@
+{
+  "id": "shrieking-shack-truth-y3",
+  "title": "The Truth About Sirius Black",
+  "hogwartsYear": 3,
+  "prose": [
+    "The story that eventually comes out — pieced together from professors who won't quite confirm it and students who swear they have it firsthand — turns the whole year's fear inside out. Sirius Black wasn't guilty of what he went to Azkaban for. He'd been framed, twelve years ago, by a man everyone thought was dead: Peter Pettigrew, who'd been hiding in plain sight ever since.",
+    "Professor Lupin — this year's Defence Against the Dark Arts teacher, and by every account one of the best the post has had in years — resigns before the end of term. The reason spreads almost as fast as the Sirius Black story: he's a werewolf, and once it's known, the Ministry paperwork all but writes his resignation for him.",
+    "Sirius Black is never caught. By the time the story settles, most of the school has quietly decided he's less a danger than a man who was owed twelve years he's never getting back — though the Ministry's official position remains considerably less forgiving."
+  ],
+  "choices": [
+    { "id": "sympathetic", "label": "You find yourself hoping Sirius Black gets some kind of justice eventually.", "next": "end-of-year-three" },
+    { "id": "cautious", "label": "You reserve judgment — it's a strange story to take entirely on faith.", "next": "end-of-year-three" }
+  ]
+}

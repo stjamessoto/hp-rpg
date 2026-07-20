@@ -1,0 +1,14 @@
+{
+  "id": "christmas-at-hogwarts-y1",
+  "title": "Christmas at Hogwarts",
+  "hogwartsYear": 1,
+  "prose": [
+    "Most of the castle empties out for the holidays, trunks dragged down to the carriages in the cold, but Hogwarts at Christmas turns out to be its own kind of magic for those who stay: a dozen fir trees in the Great Hall alone, strung with real fairy lights and hooting silver owls, snow falling outside every window in thick, deliberate flakes that never quite seem to reach the ground the ordinary way.",
+    "On the morning itself there are presents at the foot of the bed regardless — even a small, unfamiliar-shaped parcel feels enormous the first time it happens somewhere so far from home — and Christmas dinner is the most food you have ever seen in one room, crackers that bang louder than they should and leave everyone wearing something ridiculous on their head for the rest of the day.",
+    "It's quieter than term-time, the whole castle running on half as many footsteps, and there's something in that quiet you didn't know you needed."
+  ],
+  "choices": [
+    { "id": "stayed", "label": "Spend the holiday at Hogwarts.", "next": "wider-world-y1" },
+    { "id": "went-home", "label": "Go home for the holidays and come back with stories to tell.", "next": "wider-world-y1" }
+  ]
+}

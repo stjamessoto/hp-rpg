@@ -1,0 +1,16 @@
+{
+  "id": "diagon-alley",
+  "title": "Diagon Alley",
+  "hogwartsYear": 1,
+  "prose": [
+    "Diagon Alley opens up beyond a crooked archway in a brick wall behind the Leaky Cauldron — one tap from a wand-wielding stranger, and the bricks fold themselves away into a street that goes on further than seems possible from the outside.",
+    "Gringotts comes first: a vast marble hall run by unsmiling goblins, followed by a stomach-lurching cart ride down to a vault deep underground for the coins you'll need.",
+    "The rest of the morning disappears into Flourish and Blotts, thumbing through the entire first-year booklist, and Madam Malkin's Robes for All Occasions, where you're measured for school robes while another nervous first-year gets pinned up on the stool beside you. {{upbringing-reaction}}",
+    "By the time you're done, your wand — {{wand-summary}} — feels like it's been in your pocket forever, not just since this morning."
+  ],
+  "choices": [
+    { "id": "menagerie-owl", "label": "Duck into the Magical Menagerie for an owl.", "next": "hogwarts-express" },
+    { "id": "menagerie-cat", "label": "Pick out a cat instead.", "next": "hogwarts-express" },
+    { "id": "no-pet-yet", "label": "Decide a pet can wait for another year.", "next": "hogwarts-express" }
+  ]
+}

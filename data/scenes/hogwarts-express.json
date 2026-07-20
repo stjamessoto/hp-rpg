@@ -1,0 +1,15 @@
+{
+  "id": "hogwarts-express",
+  "title": "The Hogwarts Express",
+  "hogwartsYear": 1,
+  "prose": [
+    "Platform Nine and Three-Quarters is a wall like any other, until you walk straight at it and find a scarlet steam engine waiting on the other side, whistling importantly under a haze of steam, families crowded along the platform for last goodbyes.",
+    "You find a compartment already half-full of other first-years, all of you equally unsure where to look, trunks too big for the luggage racks wedged in every which way.",
+    "Somewhere around midday a trolley rattles down the corridor. \"Anything off the trolley, dears?\" Chocolate Frogs, Bertie Bott's Every Flavour Beans, Cauldron Cakes — you're regretting not asking for more spending money within about a minute.",
+    "The countryside rolls past for hours, farmland giving way to hills, hills to a loch reflecting the last of the daylight, before a voice crackles overhead: five minutes to Hogwarts. Leave your luggage on the train — it'll be taken up to the castle separately."
+  ],
+  "choices": [
+    { "id": "share-snacks", "label": "Share your sweets around the compartment.", "next": "sorting-feast" },
+    { "id": "keep-to-yourself", "label": "Hang back and watch the countryside go by.", "next": "sorting-feast" }
+  ]
+}

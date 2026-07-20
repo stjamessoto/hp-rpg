@@ -1,0 +1,13 @@
+{
+  "id": "quidditch-big-match-y3",
+  "title": "First Real Match",
+  "hogwartsYear": 3,
+  "prose": [
+    "The reserve spot stops being theoretical the moment a first-choice player turns up to breakfast with a broken wrist and a sheepish look, and you find yourself being handed real kit, in front of a real crowd, with roughly four hours' warning.",
+    "It's over almost before your nerves catch up with what's happening — a blur of cold air and shouted instructions and one genuinely good play you'll be replaying in your head for weeks. Whoever wins, you were actually out there for it."
+  ],
+  "choices": [
+    { "id": "played-well", "label": "You more than held your own.", "next": "friendship-y3" },
+    { "id": "survived-it", "label": "You survived it, mostly — and that's enough for now.", "next": "friendship-y3" }
+  ]
+}

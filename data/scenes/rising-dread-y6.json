@@ -1,0 +1,14 @@
+{
+  "id": "rising-dread-y6",
+  "title": "A Darkening Year",
+  "hogwartsYear": 6,
+  "prose": [
+    "The Daily Prophet gets harder to read this year, not because of the writing but because of what it's reporting: disappearances, attacks, names of missing witches and wizards that keep multiplying week over week. Ollivander's shop in Diagon Alley stands shuttered and dark — the wandmaker himself gone, nobody quite saying where.",
+    "Security around Hogwarts tightens without anyone announcing it outright: more thorough checks at the gates, professors patrolling corridors that never used to need it. Even the Quidditch season feels muted this year, matches played under a kind of collective distraction nobody quite shakes off.",
+    "There's a specific, low-grade dread that settles into the whole school by winter — not panic, nothing so sudden, just a steady awareness that the world outside the castle walls is getting worse, and that the castle walls might not hold that fact out forever."
+  ],
+  "choices": [
+    { "id": "stay-hopeful", "label": "Try to hold onto some hope regardless.", "next": "dumbledore-death-y6" },
+    { "id": "brace-for-worse", "label": "Start quietly bracing for it to get worse.", "next": "dumbledore-death-y6" }
+  ]
+}

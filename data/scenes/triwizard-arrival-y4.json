@@ -1,0 +1,14 @@
+{
+  "id": "triwizard-arrival-y4",
+  "title": "The Triwizard Tournament",
+  "hogwartsYear": 4,
+  "prose": [
+    "Dumbledore's announcement at the start-of-term feast is almost drowned out by the noise it causes: Hogwarts is hosting the Triwizard Tournament this year, a centuries-old contest between three magical schools, for the first time in over a century — and no wonder it stopped, once you hear how dangerous it used to be.",
+    "Beauxbatons arrives in a carriage the size of a house, drawn by winged horses as big as elephants; Durmstrang arrives by ship, rising dripping out of the lake itself. The Great Hall on the night of the selection is packed tighter than you've ever felt it, everyone watching the Goblet of Fire spit blue flames as it chooses one champion per school: Fleur Delacour for Beauxbatons, Viktor Krum for Durmstrang, and Cedric Diggory — a Hufflepuff, well-liked by nearly everyone — for Hogwarts.",
+    "Then the Goblet flares red a fourth time, and spits out a name nobody expected at all: Harry Potter. A fourth champion, from a school that was only meant to have one, not old enough by the Tournament's own rules to have entered at all. The Hall's reaction curdles from shock into something closer to resentment within about a day, and you spend the following weeks watching your own year group's opinion of Harry Potter swing wildly depending on who's been talking to whom."
+  ],
+  "choices": [
+    { "id": "sympathetic-to-harry", "label": "You don't buy that he entered himself.", "next": "yule-ball-y4" },
+    { "id": "suspicious-of-harry", "label": "You're not so sure — it does look suspicious.", "next": "yule-ball-y4" }
+  ]
+}

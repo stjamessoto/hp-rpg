@@ -21,6 +21,7 @@ const SCRIPTED_ANSWERS = [
   "Average height, quick on her feet", // build
   "", // distinguishing features
   "Keeps her sleeves rolled up.", // appearance free text
+  "quiz", // sorting mode: let the Hat decide
   "shield-them", // sorting: corridor
   "try-the-handle", // sorting: unlocked-door
   "cowardice", // sorting: greatest-fear
@@ -74,5 +75,35 @@ describe("createCharacterFlow", () => {
     const loaded = await loadCharacter(storage, character.id);
 
     expect(loaded).toEqual(character);
+  });
+
+  it("lets a player choose their house directly instead of taking the quiz", async () => {
+    const answers: (string | boolean)[] = [
+      "1991",
+      "Test Testerson",
+      "witch",
+      "1980",
+      "half-blood",
+      "wizarding",
+      "A quiet family.",
+      "Excited to start.",
+      "Black",
+      "Brown",
+      "Average height",
+      "",
+      "",
+      "choose", // sorting mode: pick it myself
+      "slytherin", // the chosen house
+      "instinct",
+      "confront",
+      "protect",
+    ];
+    const ui = new ScriptedUiAdapter(answers);
+    const rng = createSeededRngAdapter(42);
+
+    const character = await createCharacterFlow(ui, rng, canonData);
+
+    expect(character.house).toBe("slytherin");
+    expect(character.sortingHatReasoning).toContain("SLYTHERIN");
   });
 });

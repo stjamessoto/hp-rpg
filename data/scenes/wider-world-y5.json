@@ -6,6 +6,6 @@
     "{{wider-world}}"
   ],
   "choices": [
-    { "id": "continue", "label": "Try to focus on your O.W.L.s regardless.", "next": "study-group" }
+    { "id": "continue", "label": "Try to focus on your O.W.L.s regardless.", "next": "owls-exams" }
   ]
 }

@@ -8,7 +8,7 @@
     "She sets a match in front of each of you and writes a single word on the board: 'needle.' Around the room, matches roll, wobble, and — in one case, from somewhere near the back — briefly catch fire."
   ],
   "choices": [
-    { "id": "focus-quietly", "label": "Focus in silence and work through it methodically.", "next": "flying-lesson" },
-    { "id": "help-neighbour", "label": "Lean over and help the person next to you, whose match is smoking slightly.", "next": "flying-lesson" }
+    { "id": "focus-quietly", "label": "Focus in silence and work through it methodically.", "next": "potions-class-y1" },
+    { "id": "help-neighbour", "label": "Lean over and help the person next to you, whose match is smoking slightly.", "next": "potions-class-y1" }
   ]
 }

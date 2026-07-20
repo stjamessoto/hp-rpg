@@ -1,0 +1,14 @@
+{
+  "id": "herbology-class-y1",
+  "title": "First Class: Herbology",
+  "hogwartsYear": 1,
+  "prose": [
+    "Greenhouse One is warm and damp after the dungeons, earthy-smelling, rows of plants rustling for no wind anyone can feel. Professor Sprout meets you all in patched gardening gloves, mud already on one cheek.",
+    "\"Nothing here bites,\" she says cheerfully, \"not in this greenhouse, anyway,\" which is not, on reflection, entirely reassuring. Today's lesson is repotting a tray of small, wriggling bulbs that squeal faintly whenever they're disturbed.",
+    "By the end of the hour your fingernails are black with soil and your ears are ringing slightly, but the tray of newly-potted plants looks, genuinely, like something you made."
+  ],
+  "choices": [
+    { "id": "gentle-hands", "label": "Take your time and handle each bulb carefully.", "next": "flying-lesson" },
+    { "id": "quick-work", "label": "Work quickly to get through the whole tray.", "next": "flying-lesson" }
+  ]
+}

@@ -6,6 +6,6 @@
     "{{wider-world}}"
   ],
   "choices": [
-    { "id": "continue", "label": "Get back to your own year, whatever else is going on in the world.", "next": "fourth-year-class" }
+    { "id": "continue", "label": "Get back to your own year, whatever else is going on in the world.", "next": "end-of-year-four" }
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "id": "helping-a-friend-y7",
+  "title": "A Place to Hide",
+  "hogwartsYear": 7,
+  "prose": [
+    "A younger student — a name you know only vaguely, a face from the corridors — is due to be dragged in front of the Carrows for something small and stupid, the kind of thing that wouldn't have mattered at all in any ordinary year. Word reaches you an hour before it's meant to happen, and the Room of Requirement's hidden entrance is the only real option anyone has.",
+    "Getting them there without being seen means crossing two corridors Filch patrols and one that Peeves has taken a recent, inexplicable interest in loitering near. It's not a large act, set against everything else happening this year. It doesn't feel small, doing it."
+  ],
+  "choices": [
+    { "id": "got-them-there", "label": "You get them to safety without being caught.", "next": "the-battle-begins-y7" },
+    { "id": "close-call", "label": "It's closer than you'd like, but you manage it.", "next": "the-battle-begins-y7" }
+  ]
+}

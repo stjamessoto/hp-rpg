@@ -1,0 +1,13 @@
+{
+  "id": "chamber-resolved-y2",
+  "title": "The Chamber, Closed",
+  "hogwartsYear": 2,
+  "prose": [
+    "It gets worse before it gets better. Hermione Granger — a name you know, a Gryffindor a year above most of your friends — turns up petrified too, found with a mirror clutched in her hand, which everyone eventually works out was no accident. Then, right at the edge of exam season, the very worst rumour of all turns out to be true: a first-year, Ginny Weasley, is taken down into the Chamber itself.",
+    "The story that comes out afterward sounds almost too strange to believe, and yet the whole school ends up hearing some version of it: Harry Potter and Ron Weasley going down after her, a fight with something ancient and enormous in the dark beneath the school, and Harry walking back out with Ginny alive and a fifty-year-old diary destroyed for good.",
+    "Professor Sprout's Mandrake Draught revives every petrified student within days — Mrs Norris included, indignant as ever — and by the time the leaving feast comes around, the Chamber of Secrets is closed, Hagrid's name is properly cleared of the blame that's followed him since he was a student himself, and the whole castle exhales at once."
+  ],
+  "choices": [
+    { "id": "relief", "label": "Feel, for the first time in months, properly safe again.", "next": "end-of-year-two" }
+  ]
+}

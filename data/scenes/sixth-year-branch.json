@@ -1,0 +1,21 @@
+{
+  "id": "sixth-year-branch",
+  "title": "The Weight of the Year",
+  "hogwartsYear": 6,
+  "prose": [
+    "That heaviness from the start of term either lifts as the year goes on, or it doesn't."
+  ],
+  "choices": [
+    {
+      "id": "continue",
+      "label": "See which.",
+      "next": null,
+      "branch": {
+        "on": "calendarYearLookup",
+        "targetHogwartsYear": 6,
+        "cases": { "1996": "slughorn-slug-club-y6" },
+        "fallback": "ordinary-sixth-year-y6"
+      }
+    }
+  ]
+}

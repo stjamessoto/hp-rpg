@@ -36,6 +36,7 @@ export const locations: Location[] = [
       { id: "gringotts", name: "Gringotts Wizarding Bank", description: "The wizarding bank, run by goblins, with vaults deep underground.", canonTier: "book", source: "Philosopher's Stone, ch. 5" },
       { id: "ollivanders", name: "Ollivanders", description: "A wand shop ('Makers of Fine Wands since 382 B.C.') run by Garrick Ollivander.", canonTier: "book", source: "Philosopher's Stone, ch. 5" },
       { id: "flourish-and-blotts", name: "Flourish and Blotts", description: "A wizarding bookshop.", canonTier: "book", source: "Philosopher's Stone, ch. 5" },
+      { id: "madam-malkins", name: "Madam Malkin's Robes for All Occasions", description: "A robe shop where first-years are fitted for their school uniform.", canonTier: "book", source: "Philosopher's Stone, ch. 5" },
       { id: "knockturn-alley", name: "Knockturn Alley", description: "A dark side-street off Diagon Alley associated with the Dark Arts.", canonTier: "book", source: "Chamber of Secrets, ch. 4" },
       { id: "weasleys-wizard-wheezes", name: "Weasleys' Wizard Wheezes", description: "A joke shop opened by Fred and George Weasley.", canonTier: "book", source: "Half-Blood Prince" },
     ],

@@ -18,7 +18,24 @@ export interface BloodStatusBranch {
   ifFalse: string;
 }
 
-export type SceneBranch = CalendarYearBranch | BloodStatusBranch;
+export interface CalendarYearLookupBranch {
+  on: "calendarYearLookup";
+  /** Hogwarts year (1-7) the branch is choosing content for. */
+  targetHogwartsYear: number;
+  /**
+   * Exact calendar year -> destination scene id. For canon set-pieces that
+   * only happened in one specific real year (the Triwizard Tournament,
+   * Umbridge's tenure, the Chamber of Secrets reopening...) — since the
+   * same calendar year can land on a different hogwartsYear depending on
+   * when a character started, this routes to the matching detailed arc
+   * regardless of which year-of-schooling it falls in for this character.
+   */
+  cases: Record<number, string>;
+  /** Destination when the target year's calendar year matches no case (an "ordinary" year). */
+  fallback: string;
+}
+
+export type SceneBranch = CalendarYearBranch | BloodStatusBranch | CalendarYearLookupBranch;
 
 export interface SceneChoice {
   id: string;

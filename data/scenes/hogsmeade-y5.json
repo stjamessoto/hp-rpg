@@ -1,0 +1,13 @@
+{
+  "id": "hogsmeade-y5",
+  "title": "A Hogsmeade Weekend, Fifth Year",
+  "hogwartsYear": 5,
+  "prose": [
+    "Between O.W.L. revision timetables, a Hogsmeade weekend feels less like an outing and more like a small, necessary act of self-preservation. The Three Broomsticks is as loud and warm as ever, though half the tables around you are covered in open textbooks rather than butterbeer.",
+    "You allow yourself exactly one afternoon of not thinking about exams before the guilt sets back in."
+  ],
+  "choices": [
+    { "id": "actually-relaxed", "label": "Properly switch off for the afternoon.", "next": "prefect-duties-y5" },
+    { "id": "brought-notes", "label": "Bring your revision notes along anyway.", "next": "prefect-duties-y5" }
+  ]
+}

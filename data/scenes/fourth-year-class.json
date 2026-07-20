@@ -7,6 +7,6 @@
     "By the end of the lesson your arm aches and you've been knocked flat twice, but on the third try the jinx aimed at you actually rebounds — a small, solid kind of satisfaction that homework essays never quite manage to produce."
   ],
   "choices": [
-    { "id": "continue", "label": "Head back to the common room, pleased with yourself.", "next": "end-of-year-four" }
+    { "id": "continue", "label": "Head back to the common room, pleased with yourself.", "next": "fourth-year-branch" }
   ]
 }

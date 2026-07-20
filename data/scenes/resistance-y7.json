@@ -7,6 +7,6 @@
     "You're not the one leading it. You're one of a dozen or more who show up anyway, because the alternative — doing nothing while the Carrows run the school — has stopped feeling like an option."
   ],
   "choices": [
-    { "id": "continue", "label": "Keep showing up, whatever it costs.", "next": "end-of-year-seven-battle" }
+    { "id": "continue", "label": "Keep showing up, whatever it costs.", "next": "helping-a-friend-y7" }
   ]
 }

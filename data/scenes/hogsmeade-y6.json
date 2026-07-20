@@ -1,0 +1,12 @@
+{
+  "id": "hogsmeade-y6",
+  "title": "A Hogsmeade Weekend, Sixth Year",
+  "hogwartsYear": 6,
+  "prose": [
+    "Sixth-years get a little more latitude on Hogsmeade weekends — fewer chaperoning prefects hovering, more time to actually sit somewhere and talk rather than rushing between shops. Madam Puddifoot's tea shop is doing brisk business with couples who'd rather not be seen doing anything else; the Three Broomsticks remains, as ever, the more honest option.",
+    "It's a smaller pleasure than it would have been in third year, but no less real for that — a few hours where the only decision that matters is what to order."
+  ],
+  "choices": [
+    { "id": "continue", "label": "Head back to the castle in decent spirits.", "next": "quidditch-captain-y6" }
+  ]
+}
